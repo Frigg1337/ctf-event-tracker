@@ -13,8 +13,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **LilacCTF 2026** | 2026-01-24 01:00 | 2d 0h | Jeopardy | 0.0 |
 | **VSL CTF 2026** | 2026-01-24 08:00 | 1d 0h | Jeopardy | 0.0 |
 | **CyberQuest 26** | 2026-01-28 03:30 | 7h | Jeopardy | 0.0 |
-| **Jeanne d'Hack CTF 2026 | 3ème Édition** | 2026-01-30 09:00 | 9h | Jeopardy | 0.0 |
+| **Jeanne d'Hack CTF 2026 - 3ème Édition** | 2026-01-30 09:00 | 9h | Jeopardy | 0.0 |
 
 
 ---
-*Last updated: 2026-01-17 03:19:06 (Server Time)*
+*Last updated: 2026-01-17 03:23:12 (Server Time)*
