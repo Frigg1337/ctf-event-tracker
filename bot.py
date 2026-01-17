@@ -44,7 +44,10 @@ def update_readme(events):
         content += "| *Tidak ada event ditemukan* | - | - | - | - |\n"
     else:
         for event in events:
-            name = event['title']
+            # --- PERBAIKAN DI SINI ---
+            # Mengganti karakter '|' dengan '-' agar tabel Markdown tidak pecah
+            name = event['title'].replace('|', '-')
+            
             start_iso = event['start'].replace('T', ' ')[:16] 
             
             # Format Durasi
