@@ -2,8 +2,9 @@ name: Update CTF Tracker
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Jalan tiap jam 00:00 UTC (07:00 WIB)
-  workflow_dispatch: # Agar bisa ditest manual
+    # JALAN SETIAP 6 JAM (4x sehari) = 4 Commit per hari = Hijau Gelap
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -32,5 +33,10 @@ jobs:
           git config --global user.name "CTF-Tracker-Bot"
           git config --global user.email "bot@noreply.github.com"
           git add README.md
-          # Commit hanya jika ada perubahan
-          git diff --staged --quiet || (git commit -m "🤖 Update jadwal CTF" && git push)
+          
+          # --- PERUBAHAN UTAMA DI SINI ---
+          # --allow-empty : Memaksa commit meskipun tidak ada perubahan file
+          # Ini menjamin Anda dapat 4 commit setiap hari (Warna Lebih Gelap)
+          git commit -m "🤖 Update jadwal CTF" --allow-empty
+          
+          git push
