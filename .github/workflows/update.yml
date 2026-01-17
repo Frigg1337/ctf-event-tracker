@@ -1,0 +1,36 @@
+name: Update CTF Tracker
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Jalan tiap jam 00:00 UTC (07:00 WIB)
+  workflow_dispatch: # Agar bisa ditest manual
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Izin update file
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Script
+        run: python bot.py
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "CTF-Tracker-Bot"
+          git config --global user.email "bot@noreply.github.com"
+          git add README.md
+          # Commit hanya jika ada perubahan
+          git diff --staged --quiet || (git commit -m "🤖 Update jadwal CTF" && git push)
