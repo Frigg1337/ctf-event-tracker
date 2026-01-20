@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **KnightCTF 2026** | 2026-01-20 15:00 | 1d 0h | Jeopardy | 22.21 |
 | **MetaCTF January 2026 Flash CTF** | 2026-01-22 22:00 | 3h | Jeopardy | 0 |
 | **0xL4ugh CTF v5** | 2026-01-23 13:00 | 1d 12h | Jeopardy | 0.0 |
 | **Säkerhets-SM Quals 2026** | 2026-01-23 19:00 | 2d 0h | Jeopardy | 0 |
@@ -15,7 +14,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **VSL CTF 2026** | 2026-01-24 08:00 | 1d 0h | Jeopardy | 0.0 |
 | **Fluid Attacks' CTF 2026-1** | 2026-01-24 13:00 | 1d 0h | Jeopardy | 0 |
 | **CyberQuest 26** | 2026-01-28 03:30 | 7h | Jeopardy | 0.0 |
+| **Hack for a Change 2026 January: UN SDG 15** | 2026-01-30 00:00 | 3d 23h | Jeopardy | 0.0 |
 
 
 ---
-*Last updated: 2026-01-20 12:27:22 (Server Time)*
+*Last updated: 2026-01-20 18:22:14 (Server Time)*
