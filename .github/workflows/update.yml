@@ -31,7 +31,7 @@ jobs:
       - name: Commit changes
         run: |
           git config --global user.name "CTF-Tracker-Bot"
-          git config --global user.email "bot@noreply.github.com"
+          git config --global user.email "rrado2294@gmail.com"
           git add README.md
           
           # --- PERUBAHAN UTAMA DI SINI ---
