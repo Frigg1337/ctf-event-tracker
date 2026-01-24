@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **LilacCTF 2026** | 2026-01-24 01:00 | 2d 0h | Jeopardy | 0.0 |
 | **VSL CTF 2026** | 2026-01-24 08:00 | 1d 0h | Jeopardy | 0.0 |
 | **Fluid Attacks' CTF 2026-1** | 2026-01-24 13:00 | 1d 0h | Jeopardy | 0 |
 | **CyberQuest 26** | 2026-01-28 03:30 | 7h | Jeopardy | 0.0 |
@@ -17,4 +16,4 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 
 
 ---
-*Last updated: 2026-01-24 00:56:54 (Server Time)*
+*Last updated: 2026-01-24 06:18:32 (Server Time)*
