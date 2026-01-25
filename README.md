@@ -11,7 +11,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **ATC Winter Vibes Community CTF 2.0** | 2026-01-30 14:00 | 1d 0h | Jeopardy | 0.0 |
 | **Eschaton CTF 2026 Quals** | 2026-01-31 04:30 | 1d 0h | Jeopardy | 0.0 |
 | **PascalCTF 2026** | 2026-01-31 08:00 | 1d 0h | Jeopardy | 0.0 |
+| **BITSCTF 2026** | 2026-02-06 05:30 | 2d 0h | Jeopardy | 25.54 |
 
 
 ---
-*Last updated: 2026-01-25 01:04:54 (Server Time)*
+*Last updated: 2026-01-25 06:18:46 (Server Time)*
