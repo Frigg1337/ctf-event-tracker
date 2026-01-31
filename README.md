@@ -11,7 +11,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **Nullcon Goa HackIM 2026 CTF** | 2026-02-07 08:30 | 1d 0h | Jeopardy | 24.72 |
 | **DUCKERZ CTF 2026** | 2026-02-07 09:00 | 1d 0h | Jeopardy | 0.0 |
 | **EncipherX CTF 4.0** | 2026-02-07 11:00 | 1d 0h | Jeopardy | 0.0 |
+| **0xFUN CTF 2026** | 2026-02-12 18:00 | 2d 0h | Jeopardy | 0.0 |
 
 
 ---
-*Last updated: 2026-01-31 12:24:52 (Server Time)*
+*Last updated: 2026-01-31 18:19:06 (Server Time)*
