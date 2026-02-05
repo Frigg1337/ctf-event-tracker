@@ -5,7 +5,7 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **BITSCTF 2026** | 2026-02-06 05:30 | 2d 0h | Jeopardy | 25.54 |
+| **BITSCTF 2026 [Postponed]** | 2026-02-06 05:30 | 2d 0h | Jeopardy | 25.54 |
 | **Pragyan CTF 2026** | 2026-02-06 13:00 | 2d 0h | Jeopardy | 0.0 |
 | **LA CTF 2026** | 2026-02-07 02:00 | 2d 0h | Jeopardy | 53.58 |
 | **Nullcon Goa HackIM 2026 CTF** | 2026-02-07 08:30 | 1d 0h | Jeopardy | 24.72 |
@@ -17,4 +17,4 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 
 
 ---
-*Last updated: 2026-02-05 06:44:19 (Server Time)*
+*Last updated: 2026-02-05 12:37:06 (Server Time)*
