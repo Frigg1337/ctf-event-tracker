@@ -11,7 +11,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **EPIHACK CTF: L'arène numérique** | 2026-02-21 09:00 | 8h | Jeopardy | 0 |
 | **BearcatCTF 2026 - Setting Sail** | 2026-02-21 17:00 | 1d 0h | Jeopardy | 23.89 |
 | **UniVsThreats 26 Quals CTF** | 2026-02-27 08:00 | 1d 0h | Jeopardy | 18.35 |
+| **Srdnlen CTF 2026 Quals** | 2026-02-28 18:00 | 0h | Jeopardy | 34.76 |
 
 
 ---
-*Last updated: 2026-02-14 12:25:19 (Server Time)*
+*Last updated: 2026-02-14 18:19:47 (Server Time)*
