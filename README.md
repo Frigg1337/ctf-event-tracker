@@ -13,8 +13,9 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **BearcatCTF 2026 - Setting Sail** | 2026-02-21 17:00 | 1d 0h | Jeopardy | 23.89 |
 | **UniVsThreats 26 Quals CTF** | 2026-02-27 08:00 | 1d 0h | Jeopardy | 18.35 |
 | **EHAX CTF 2026** | 2026-02-27 18:30 | 1d 12h | Jeopardy | 22.67 |
-| **Srdnlen CTF 2026 Quals** | 2026-02-28 18:00 | 0h | Jeopardy | 34.76 |
+| **SECCON CTF 14 International Finals** | 2026-02-28 01:00 | 1d 8h | Jeopardy | 37.0 |
+| **SECCON CTF 14 Domestic Finals** | 2026-02-28 01:00 | 1d 8h | Jeopardy | 37.0 |
 
 
 ---
-*Last updated: 2026-02-15 06:38:40 (Server Time)*
+*Last updated: 2026-02-15 12:27:18 (Server Time)*
