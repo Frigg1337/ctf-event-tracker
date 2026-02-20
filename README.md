@@ -6,8 +6,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
 | **BITSCTF 2026** | 2026-02-20 05:30 | 2d 0h | Jeopardy | 25.54 |
-| **Batman's Kitchen CTF 2026** | 2026-02-20 18:30 | 2d 0h | Jeopardy | 0.0 |
 | **THJCC CTF 2026** | 2026-02-21 00:00 | 1d 12h | Jeopardy | 0.0 |
+| **Batman's Kitchen CTF 2026** | 2026-02-21 01:30 | 2d 0h | Jeopardy | 0.0 |
 | **Escathon CTF 2026 Finals** | 2026-02-21 04:30 | 10h | Attack-Defense | 0.0 |
 | **EPIHACK CTF: L'arène numérique** | 2026-02-21 09:00 | 8h | Jeopardy | 0 |
 | **BearcatCTF 2026 - Setting Sail** | 2026-02-21 17:00 | 1d 0h | Jeopardy | 23.89 |
@@ -18,4 +18,4 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 
 
 ---
-*Last updated: 2026-02-19 18:39:02 (Server Time)*
+*Last updated: 2026-02-20 01:08:47 (Server Time)*
