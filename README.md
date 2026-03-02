@@ -6,7 +6,7 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
 | **KI CTF 2026** | 2026-03-03 03:30 | 8h | Jeopardy | 0.0 |
-| **ARA 7.0 CTF** | 2026-03-04 09:00 | 1d 0h | Jeopardy | 0 |
+| **ARA 7.0 CTF** | 2026-03-05 09:00 | 1d 0h | Jeopardy | 0 |
 | **UNbreakable International 2026 - Team Phase** | 2026-03-06 09:00 | 2d 0h | Jeopardy | 0.0 |
 | **ApoorvCTF 2026** | 2026-03-06 21:00 | 2d 0h | Jeopardy | 24.1 |
 | **Axiom CTF 2026** | 2026-03-07 07:00 | 1d 12h | Jeopardy | 0.0 |
@@ -18,4 +18,4 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 
 
 ---
-*Last updated: 2026-03-02 12:33:59 (Server Time)*
+*Last updated: 2026-03-02 18:32:43 (Server Time)*
