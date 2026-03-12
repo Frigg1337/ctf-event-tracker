@@ -12,10 +12,10 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **Goldrush Gauntlet 2026** | 2026-03-13 22:00 | 1d 0h | Jeopardy | 0 |
 | **SUCTF 2026** | 2026-03-14 01:00 | 2d 0h | Jeopardy | 24.82 |
 | **tkbctf5** | 2026-03-14 05:00 | 1d 0h | Jeopardy | 0.0 |
-| **Dark ctf** | 2026-03-14 06:30 | 1d 0h | Jeopardy | 0.0 |
+| **Dark ctf** | 2026-03-14 06:30 | 1d 0h | Jeopardy | 0 |
 | **MIPT CTF Quals 2026** | 2026-03-14 09:00 | 1d 0h | Jeopardy | 0.0 |
 | **Lag N Crash 6.0** | 2026-03-16 04:00 | 1d 6h | Jeopardy | 0.0 |
 
 
 ---
-*Last updated: 2026-03-11 18:40:18 (Server Time)*
+*Last updated: 2026-03-12 01:03:15 (Server Time)*
