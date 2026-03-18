@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **CyberCup Indian Ocean 2026 – Team Edition - Step2** | 2026-03-18 05:00 | 9h | Jeopardy | 0 |
 | **m0leCon CTF 2026** | 2026-03-19 16:00 | 1d 0h | Jeopardy | 75.0 |
 | **Insomni'hack 2026** | 2026-03-20 17:00 | 11h | Jeopardy | 24.14 |
 | **Curiosity CTF 2026** | 2026-03-20 19:00 | 2d 0h | Jeopardy | 0.0 |
@@ -15,7 +14,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **PolyPwnCTF 2026** | 2026-03-21 10:00 | 11h | Jeopardy | 0.0 |
 | **Undutmaning 2026** | 2026-03-21 11:00 | 8h | Jeopardy | 33.0 |
 | **Redfox CTF 2026** | 2026-03-21 12:30 | 1d 0h | Jeopardy | 0.0 |
+| **AITU CTF 2026 Quals** | 2026-03-23 07:00 | 12h | Jeopardy | 0.0 |
 
 
 ---
-*Last updated: 2026-03-18 01:15:21 (Server Time)*
+*Last updated: 2026-03-18 06:50:28 (Server Time)*
