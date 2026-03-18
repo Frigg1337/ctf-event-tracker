@@ -12,10 +12,10 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **TAMUctf 2026** | 2026-03-20 22:00 | 2d 0h | Jeopardy | 76.22 |
 | **BSidesSF CTF 2026** | 2026-03-20 23:00 | 2d 0h | Jeopardy | 25.0 |
 | **ZeroDays CTF 2026** | 2026-03-21 10:00 | 7h | Jeopardy | 0 |
+| **PolyPwnCTF 2026** | 2026-03-21 10:00 | 11h | Jeopardy | 0.0 |
 | **Undutmaning 2026** | 2026-03-21 11:00 | 8h | Jeopardy | 33.0 |
 | **Redfox CTF 2026** | 2026-03-21 12:30 | 1d 0h | Jeopardy | 0.0 |
-| **Stranger's CTF - Techtrix '26** | 2026-03-26 07:30 | 1d 0h | Jeopardy | 0.0 |
 
 
 ---
-*Last updated: 2026-03-17 18:46:38 (Server Time)*
+*Last updated: 2026-03-18 01:15:21 (Server Time)*
