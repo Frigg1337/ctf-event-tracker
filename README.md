@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **m0leCon CTF 2026** | 2026-03-19 16:00 | 1d 0h | Jeopardy | 75.0 |
 | **Insomni'hack 2026** | 2026-03-20 17:00 | 11h | Jeopardy | 24.14 |
 | **Curiosity CTF 2026** | 2026-03-20 19:00 | 2d 0h | Jeopardy | 0.0 |
 | **TAMUctf 2026** | 2026-03-20 22:00 | 2d 0h | Jeopardy | 76.22 |
@@ -15,7 +14,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **Undutmaning 2026** | 2026-03-21 11:00 | 8h | Jeopardy | 33.0 |
 | **Redfox CTF 2026** | 2026-03-21 12:30 | 1d 0h | Jeopardy | 0.0 |
 | **AITU CTF 2026 Quals** | 2026-03-23 07:00 | 12h | Jeopardy | 0.0 |
+| **Stranger's CTF - Techtrix '26** | 2026-03-26 07:30 | 1d 0h | Jeopardy | 0.0 |
 
 
 ---
-*Last updated: 2026-03-19 12:38:18 (Server Time)*
+*Last updated: 2026-03-19 18:41:19 (Server Time)*
