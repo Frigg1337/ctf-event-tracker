@@ -10,12 +10,12 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **RITSEC CTF 2026** | 2026-04-03 21:00 | 2d 0h | Jeopardy | 48.64 |
 | **CITEFLAG QUALS 2026** | 2026-04-03 22:00 | 1d 0h | Jeopardy | 0.0 |
 | **NCTF 2026** | 2026-04-04 01:00 | 1d 12h | Jeopardy | 0.0 |
-| **Breach CTF 2026** | 2026-04-04 02:30 | 1d 0h | Jeopardy | 23.86 |
 | **THE UNI6CTF 1.0** | 2026-04-04 03:30 | 6h | Jeopardy | 0.0 |
 | **CRACK-IN 2.0** | 2026-04-04 04:30 | 6h | Jeopardy | 0 |
 | **SillyCTF 2** | 2026-04-04 12:00 | 16h | Jeopardy | 25.0 |
 | **Triada CTF '26** | 2026-04-06 04:30 | 1d 0h | Jeopardy | 0 |
+| **Dreamhack Invitational 2026** | 2026-04-07 00:00 | 15h | Jeopardy | 0 |
 
 
 ---
-*Last updated: 2026-03-31 12:52:15 (Server Time)*
+*Last updated: 2026-03-31 18:45:42 (Server Time)*
