@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **Hack for a Change 2026 March: UN SDG 3** | 2026-03-31 00:00 | 1d 23h | Jeopardy | 0.0 |
 | **VishwaCTF'2026** | 2026-04-03 09:30 | 2d 0h | Jeopardy | 36.0 |
 | **Kashi CTF 2026** | 2026-04-03 12:00 | 1d 0h | Jeopardy | 21.78 |
 | **RITSEC CTF 2026** | 2026-04-03 21:00 | 2d 0h | Jeopardy | 48.64 |
@@ -15,7 +14,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **THE UNI6CTF 1.0** | 2026-04-04 03:30 | 6h | Jeopardy | 0.0 |
 | **CRACK-IN 2.0** | 2026-04-04 04:30 | 6h | Jeopardy | 0 |
 | **SillyCTF 2** | 2026-04-04 12:00 | 16h | Jeopardy | 25.0 |
+| **Triada CTF '26** | 2026-04-06 04:30 | 1d 0h | Jeopardy | 0 |
 
 
 ---
-*Last updated: 2026-03-30 18:44:49 (Server Time)*
+*Last updated: 2026-03-31 01:20:13 (Server Time)*
