@@ -10,12 +10,12 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **UMassCTF 2026** | 2026-04-10 22:00 | 2d 0h | Jeopardy | 65.95 |
 | **Cybersplash 2026** | 2026-04-11 02:00 | 1d 0h | Jeopardy | 0.0 |
 | **KAALCHAKRA CTF Finals** | 2026-04-11 04:30 | 7h | Jeopardy | 0.0 |
-| **Midnight Sun CTF 2026 Quals** | 2026-04-11 10:00 | 1d 0h | Jeopardy | 48.17 |
 | **PUTCyberDays CTF 2026** | 2026-04-11 10:00 | 1d 0h | Jeopardy | 0.0 |
 | **Incognito 7.0** | 2026-04-14 00:00 | 1d 0h | Jeopardy | 16.56 |
 | **CPCTF 2026** | 2026-04-17 11:00 | 2d 0h | Jeopardy | 0 |
 | **CTF@CIT 2026** | 2026-04-17 16:00 | 2d 3h | Jeopardy | 23.93 |
+| **BlueHens CTF 2026** | 2026-04-17 17:00 | 1d 12h | Jeopardy | 44.77 |
 
 
 ---
-*Last updated: 2026-04-09 12:58:18 (Server Time)*
+*Last updated: 2026-04-09 18:48:39 (Server Time)*
