@@ -13,7 +13,9 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **Midnight Sun CTF 2026 Quals** | 2026-04-25 10:00 | 1d 0h | Jeopardy | 48.17 |
 | **MCTF 5.0** | 2026-04-30 19:00 | 1d 12h | Jeopardy | 0.0 |
 | **KubSTU CTF** | 2026-05-01 07:00 | 1d 12h | Jeopardy | 0.0 |
+| **THEM?!CTF 2026** | 2026-05-01 18:00 | 2d 0h | Jeopardy | 0.0 |
+| **UniVsThreats 26 Finals CTF** | 2026-05-02 08:00 | 1d 7h | Jeopardy | 0.0 |
 
 
 ---
-*Last updated: 2026-04-19 12:37:28 (Server Time)*
+*Last updated: 2026-04-19 18:33:36 (Server Time)*
