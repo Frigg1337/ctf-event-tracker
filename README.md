@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **CyberNSK-Finals** | 2026-04-19 12:00 | 7d 0h | Attack-Defense | 0 |
 | **TRX CTF 2026** | 2026-04-24 19:00 | 2d 0h | Jeopardy | 24.16 |
 | **UMDCTF 2026** | 2026-04-24 22:00 | 2d 0h | Jeopardy | 85.48 |
 | **HACKTHEON SEJONG 2026 Qualifier** | 2026-04-25 01:00 | 7h | Jeopardy | 0 |
@@ -17,4 +16,4 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 
 
 ---
-*Last updated: 2026-04-19 07:05:51 (Server Time)*
+*Last updated: 2026-04-19 12:37:28 (Server Time)*
