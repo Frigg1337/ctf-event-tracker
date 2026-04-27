@@ -14,8 +14,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **THCon 2K26 CTF** | 2026-05-07 11:00 | 1d 0h | Jeopardy | 34.67 |
 | **PHONIX VIPER NOVA CTF#2** | 2026-05-08 10:00 | 2d 7h | Jeopardy | 0.0 |
 | **Break The Syntax CTF 2026** | 2026-05-08 16:00 | 1d 18h | Jeopardy | 56.25 |
-| **From Dusk Till Dawn Quals** | 2026-05-09 09:00 | 1d 0h | Jeopardy | 0.0 |
+| **DAMCTF 2026** | 2026-05-09 00:00 | 2d 0h | Jeopardy | 33.42 |
 
 
 ---
-*Last updated: 2026-04-26 18:35:45 (Server Time)*
+*Last updated: 2026-04-27 01:47:52 (Server Time)*
