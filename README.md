@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **THEM?!CTF 2026** | 2026-05-01 18:00 | 2d 0h | Jeopardy | 0.0 |
 | **UniVsThreats 26 Finals CTF** | 2026-05-02 08:00 | 1d 7h | Jeopardy | 0.0 |
 | **RAZER CTF 2026** | 2026-05-05 06:30 | 1d 0h | Jeopardy | 0.0 |
 | **THCon 2K26 CTF** | 2026-05-07 11:00 | 1d 0h | Jeopardy | 34.67 |
@@ -18,4 +17,4 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 
 
 ---
-*Last updated: 2026-05-01 12:54:04 (Server Time)*
+*Last updated: 2026-05-01 18:56:11 (Server Time)*
