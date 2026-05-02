@@ -13,7 +13,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **From Dusk Till Dawn Quals** | 2026-05-09 09:00 | 1d 0h | Jeopardy | 0.0 |
 | **Midnight Sun CTF 2026 Quals** | 2026-05-09 10:00 | 1d 0h | Jeopardy | 48.17 |
 | **Hack2Dawn 2026** | 2026-05-09 19:00 | 7h | Hack quest | 0.0 |
+| **DaVinciCTF 2026** | 2026-05-16 08:00 | 9h | Jeopardy | 32.59 |
 
 
 ---
-*Last updated: 2026-05-02 12:44:22 (Server Time)*
+*Last updated: 2026-05-02 18:42:01 (Server Time)*
