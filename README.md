@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **THCon 2K26 CTF** | 2026-05-07 11:00 | 1d 0h | Jeopardy | 34.67 |
 | **PHONIX VIPER NOVA CTF#2** | 2026-05-08 10:00 | 2d 7h | Jeopardy | 0.0 |
 | **plfanzen CFT 2026** | 2026-05-08 16:00 | 1d 20h | Jeopardy | 0.0 |
 | **Break The Syntax CTF 2026** | 2026-05-08 16:00 | 1d 18h | Jeopardy | 56.25 |
@@ -15,7 +14,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **Midnight Sun CTF 2026 Quals** | 2026-05-09 10:00 | 1d 0h | Jeopardy | 48.17 |
 | **Maltego Community OSINT CTF** | 2026-05-09 14:00 | 1h | Jeopardy | 0.0 |
 | **Hack2Dawn 2026** | 2026-05-09 19:00 | 7h | Hack quest | 0.0 |
+| **Azure Assassin Alliance CTF 2026** | 2026-05-10 01:00 | 1d 0h | Jeopardy | 45.6 |
 
 
 ---
-*Last updated: 2026-05-07 08:13:33 (Server Time)*
+*Last updated: 2026-05-07 13:26:37 (Server Time)*
