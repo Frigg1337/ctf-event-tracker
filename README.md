@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **PHONIX VIPER NOVA CTF#2** | 2026-05-08 10:00 | 2d 7h | Jeopardy | 0.0 |
 | **plfanzen CFT 2026** | 2026-05-08 16:00 | 1d 20h | Jeopardy | 0.0 |
 | **Break The Syntax CTF 2026** | 2026-05-08 16:00 | 1d 18h | Jeopardy | 56.25 |
 | **DAMCTF 2026** | 2026-05-09 00:00 | 2d 0h | Jeopardy | 33.42 |
@@ -15,7 +14,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **Maltego Community OSINT CTF** | 2026-05-09 14:00 | 1h | Jeopardy | 0.0 |
 | **Hack2Dawn 2026** | 2026-05-09 19:00 | 7h | Hack quest | 0.0 |
 | **Azure Assassin Alliance CTF 2026** | 2026-05-10 01:00 | 1d 0h | Jeopardy | 45.6 |
+| **NorthSec 2026** | 2026-05-15 00:00 | 2d 23h | Hack quest | 0.0 |
 
 
 ---
-*Last updated: 2026-05-08 07:14:44 (Server Time)*
+*Last updated: 2026-05-08 13:06:23 (Server Time)*
