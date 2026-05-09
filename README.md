@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **BKISC CTF 2026** | 2026-05-09 01:00 | 1d 0h | Jeopardy | 0.0 |
 | **From Dusk Till Dawn Quals** | 2026-05-09 09:00 | 1d 0h | Jeopardy | 0.0 |
 | **Midnight Sun CTF 2026 Quals** | 2026-05-09 10:00 | 1d 0h | Jeopardy | 48.17 |
 | **Maltego Community OSINT CTF** | 2026-05-09 14:00 | 1h | Jeopardy | 0.0 |
@@ -15,7 +14,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **NorthSec 2026** | 2026-05-15 00:00 | 2d 23h | Hack quest | 0.0 |
 | **NDIAS Automotive/IoT CTF** | 2026-05-15 09:00 | 2d 0h | Jeopardy | 0.0 |
 | **TJCTF 2026** | 2026-05-15 16:00 | 2d 0h | Jeopardy | 65.05 |
+| **DaVinciCTF 2026** | 2026-05-16 08:00 | 9h | Jeopardy | 32.59 |
 
 
 ---
-*Last updated: 2026-05-08 19:02:34 (Server Time)*
+*Last updated: 2026-05-09 01:54:44 (Server Time)*
