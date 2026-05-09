@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **Maltego Community OSINT CTF** | 2026-05-09 14:00 | 1h | Jeopardy | 0.0 |
 | **Hack2Dawn 2026** | 2026-05-09 19:00 | 7h | Hack quest | 0.0 |
 | **Azure Assassin Alliance CTF 2026** | 2026-05-10 01:00 | 1d 0h | Jeopardy | 45.6 |
 | **RAMunchers CTF** | 2026-05-10 08:00 | 3d 7h | Jeopardy | 0.0 |
@@ -15,7 +14,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **TJCTF 2026** | 2026-05-15 16:00 | 2d 0h | Jeopardy | 65.05 |
 | **DaVinciCTF 2026** | 2026-05-16 08:00 | 9h | Jeopardy | 32.59 |
 | **UralCUP 2026** | 2026-05-17 05:00 | 8h | Jeopardy | 0 |
+| **0xV01D CTF 2026** | 2026-05-18 04:00 | 2d 0h | Jeopardy | 0.0 |
 
 
 ---
-*Last updated: 2026-05-09 12:52:28 (Server Time)*
+*Last updated: 2026-05-09 18:43:14 (Server Time)*
