@@ -11,7 +11,9 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **DEF CON CTF Qualifier 2026** | 2026-05-22 21:00 | 2d 0h | Jeopardy | 63.22 |
 | **SecLeaf Q2 CTF 2026** | 2026-05-23 14:00 | 1d 0h | Jeopardy | 0.0 |
 | **ZEROBREACH CTF** | 2026-05-24 04:30 | 12h | Jeopardy | 0.0 |
+| **Hackअस्त्र** | 2026-05-29 10:15 | 1d 7h | Jeopardy | 0.0 |
+| **Pwn2Play Open CTF** | 2026-05-30 09:00 | 9h | Jeopardy | 0 |
 
 
 ---
-*Last updated: 2026-05-16 12:56:52 (Server Time)*
+*Last updated: 2026-05-16 18:47:53 (Server Time)*
