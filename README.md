@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **UralCUP 2026** | 2026-05-17 05:00 | 8h | Jeopardy | 0 |
 | **0xV01D CTF 2026** | 2026-05-18 04:00 | 2d 0h | Jeopardy | 0.0 |
 | **Hack for a Change 2026 May: UN SDG 1** | 2026-05-19 00:00 | 2d 23h | Jeopardy | 0.0 |
 | **DEF CON CTF Qualifier 2026** | 2026-05-22 21:00 | 2d 0h | Jeopardy | 63.22 |
@@ -15,7 +14,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **Hackअस्त्र** | 2026-05-29 10:15 | 1d 7h | Jeopardy | 0.0 |
 | **Hardwear.io USA 2026 Hardware CTF** | 2026-05-29 17:00 | 1d 3h | Jeopardy | 0.0 |
 | **BYUCTF 2026** | 2026-05-30 00:00 | 1d 0h | Jeopardy | 53.29 |
+| **Grey Cat The Flag 2026 Qualifiers** | 2026-05-30 02:00 | 1d 0h | Jeopardy | 47.5 |
 
 
 ---
-*Last updated: 2026-05-17 01:59:57 (Server Time)*
+*Last updated: 2026-05-17 08:09:10 (Server Time)*
