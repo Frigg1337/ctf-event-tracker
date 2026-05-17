@@ -9,11 +9,13 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **0xV01D CTF 2026** | 2026-05-18 04:00 | 2d 0h | Jeopardy | 0.0 |
 | **Hack for a Change 2026 May: UN SDG 1** | 2026-05-19 00:00 | 2d 23h | Jeopardy | 0.0 |
 | **DEF CON CTF Qualifier 2026** | 2026-05-22 21:00 | 2d 0h | Jeopardy | 63.22 |
+| **Hack4Krak CTF 2026 - High School Edition** | 2026-05-23 08:00 | 1d 6h | Jeopardy | 0 |
 | **SecLeaf Q2 CTF 2026** | 2026-05-23 14:00 | 1d 0h | Jeopardy | 0.0 |
 | **ZEROBREACH CTF** | 2026-05-24 04:30 | 12h | Jeopardy | 0.0 |
 | **Hackअस्त्र** | 2026-05-29 10:15 | 1d 7h | Jeopardy | 0.0 |
-| **Pwn2Play Open CTF** | 2026-05-30 09:00 | 9h | Jeopardy | 0 |
+| **Hardwear.io USA 2026 Hardware CTF** | 2026-05-29 17:00 | 1d 3h | Jeopardy | 0.0 |
+| **BYUCTF 2026** | 2026-05-30 00:00 | 1d 0h | Jeopardy | 53.29 |
 
 
 ---
-*Last updated: 2026-05-16 18:47:53 (Server Time)*
+*Last updated: 2026-05-17 01:59:57 (Server Time)*
