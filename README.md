@@ -13,7 +13,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **Grey Cat The Flag 2026 Qualifiers** | 2026-05-30 02:00 | 1d 0h | Jeopardy | 47.5 |
 | **Pwn2Play Open CTF** | 2026-05-30 09:00 | 9h | Jeopardy | 0 |
 | **WhiteHats TrojanCTF 2026** | 2026-05-30 09:00 | 10h | Jeopardy | 0.0 |
+| **GPN CTF 2026** | 2026-06-05 10:00 | 1d 12h | Jeopardy | 69.0 |
 
 
 ---
-*Last updated: 2026-05-23 18:53:56 (Server Time)*
+*Last updated: 2026-05-24 02:08:54 (Server Time)*
