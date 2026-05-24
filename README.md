@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **ZEROBREACH CTF** | 2026-05-24 04:30 | 12h | Jeopardy | 0.0 |
 | **Hackअस्त्र** | 2026-05-29 10:15 | 1d 7h | Jeopardy | 0.0 |
 | **Hardwear.io USA 2026 Hardware CTF** | 2026-05-29 17:00 | 1d 3h | Jeopardy | 0.0 |
 | **THEM?!CTF 2026** | 2026-05-29 18:00 | 2d 0h | Jeopardy | 0.0 |
@@ -17,4 +16,4 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 
 
 ---
-*Last updated: 2026-05-24 02:08:54 (Server Time)*
+*Last updated: 2026-05-24 08:15:45 (Server Time)*
