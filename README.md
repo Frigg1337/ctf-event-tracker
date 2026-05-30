@@ -5,9 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **Pwn2Play Open CTF** | 2026-05-30 09:00 | 9h | Jeopardy | 0 |
-| **WhiteHats TrojanCTF 2026** | 2026-05-30 09:00 | 10h | Jeopardy | 0.0 |
-| **bhackari CTF 2026** | 2026-05-30 10:00 | 1d 0h | Jeopardy | 0.0 |
 | **GPN CTF 2026** | 2026-06-05 10:00 | 1d 12h | Jeopardy | 69.0 |
 | **RPCA CTF 2026** | 2026-06-05 17:00 | 3d 0h | Jeopardy | 0 |
 | **ZeroDay Heist 2026** | 2026-06-06 06:30 | 6h | Jeopardy | 0.0 |
@@ -16,4 +13,4 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 
 
 ---
-*Last updated: 2026-05-30 08:15:22 (Server Time)*
+*Last updated: 2026-05-30 13:01:05 (Server Time)*
