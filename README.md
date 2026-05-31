@@ -10,7 +10,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **ZeroDay Heist 2026** | 2026-06-06 06:30 | 6h | Jeopardy | 0.0 |
 | **SAS CTF 2026 Quals** | 2026-06-06 12:00 | 1d 0h | Jeopardy | 31.0 |
 | **SSMCTF 2026 Qualifiers** | 2026-06-07 10:00 | 1d 0h | Jeopardy | 0.0 |
+| **Crypto CTF 2026** | 2026-06-13 14:00 | 1d 0h | Jeopardy | 91.0 |
 
 
 ---
-*Last updated: 2026-05-31 13:12:30 (Server Time)*
+*Last updated: 2026-05-31 19:01:08 (Server Time)*
