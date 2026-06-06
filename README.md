@@ -5,8 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **SAS CTF 2026 Quals** | 2026-06-06 12:00 | 1d 0h | Jeopardy | 31.0 |
-| **DalCTF 2026** | 2026-06-06 13:00 | 1d 2h | Jeopardy | 0.0 |
 | **SSMCTF 2026 Qualifiers** | 2026-06-07 10:00 | 1d 0h | Jeopardy | 0.0 |
 | **boroCTF 2026** | 2026-06-12 20:00 | 3d 7h | Jeopardy | 0.0 |
 | **Anti-Slop CTF 2026** | 2026-06-13 01:00 | 2d 0h | Jeopardy | 0.0 |
@@ -15,4 +13,4 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 
 
 ---
-*Last updated: 2026-06-06 08:22:36 (Server Time)*
+*Last updated: 2026-06-06 13:06:16 (Server Time)*
