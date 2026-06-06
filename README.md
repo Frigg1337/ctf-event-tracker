@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **ZeroDay Heist 2026** | 2026-06-06 06:30 | 6h | Jeopardy | 0.0 |
 | **SAS CTF 2026 Quals** | 2026-06-06 12:00 | 1d 0h | Jeopardy | 31.0 |
 | **DalCTF 2026** | 2026-06-06 13:00 | 1d 2h | Jeopardy | 0.0 |
 | **SSMCTF 2026 Qualifiers** | 2026-06-07 10:00 | 1d 0h | Jeopardy | 0.0 |
@@ -16,4 +15,4 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 
 
 ---
-*Last updated: 2026-06-06 02:05:23 (Server Time)*
+*Last updated: 2026-06-06 08:22:36 (Server Time)*
