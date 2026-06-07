@@ -9,7 +9,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **Anti-Slop CTF 2026** | 2026-06-13 01:00 | 2d 0h | Jeopardy | 0.0 |
 | **CyberSci Nationals 2025-2026** | 2026-06-13 13:00 | 1d 10h | Jeopardy | 0.0 |
 | **Sieberrsec CTF 7.0** | 2026-06-17 01:00 | 12h | Jeopardy | 0.0 |
+| **Google Capture The Flag 2026** | 2026-06-19 18:00 | 2d 0h | Jeopardy | 88.82 |
 
 
 ---
-*Last updated: 2026-06-07 13:19:37 (Server Time)*
+*Last updated: 2026-06-07 19:05:00 (Server Time)*
