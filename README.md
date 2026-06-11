@@ -18,4 +18,4 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 
 
 ---
-*Last updated: 2026-06-11 15:32:58 (Server Time)*
+*Last updated: 2026-06-11 20:08:51 (Server Time)*
