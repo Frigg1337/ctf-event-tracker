@@ -12,8 +12,9 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **TraceBash CTF 2026** | 2026-06-26 09:30 | 1d 0h | Jeopardy | 0.0 |
 | **Grey Cat The Flag 2026 Finals** | 2026-06-27 02:00 | 1d 0h | Jeopardy | 0.0 |
 | **V1T CTF 2026** | 2026-06-27 02:00 | 1d 12h | Jeopardy | 22.14 |
+| **SekaiCTF 2026** | 2026-06-27 08:00 | 2d 0h | Jeopardy | 79.25 |
 | **MntcrlCTF 2026** | 2026-06-27 16:00 | 1d 0h | Jeopardy | 0.0 |
 
 
 ---
-*Last updated: 2026-06-15 02:41:16 (Server Time)*
+*Last updated: 2026-06-15 11:43:28 (Server Time)*
