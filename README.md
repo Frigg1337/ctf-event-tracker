@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **Sieberrsec CTF 7.0** | 2026-06-17 01:00 | 12h | Jeopardy | 0.0 |
 | **BCACTF 7.0** | 2026-06-19 10:00 | 3d 0h | Jeopardy | 65.05 |
 | **RIFFHACK: Black Market Break-In** | 2026-06-19 12:00 | 2d 12h | Jeopardy | 0 |
 | **Google Capture The Flag 2026** | 2026-06-19 18:00 | 2d 0h | Jeopardy | 88.82 |
@@ -17,4 +16,4 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 
 
 ---
-*Last updated: 2026-06-16 20:35:50 (Server Time)*
+*Last updated: 2026-06-17 02:40:07 (Server Time)*
