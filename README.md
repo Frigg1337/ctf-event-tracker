@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **Google Capture The Flag 2026** | 2026-06-19 18:00 | 2d 0h | Jeopardy | 88.82 |
 | **TraceBash CTF 2026** | 2026-06-26 09:30 | 1d 0h | Jeopardy | 0.0 |
 | **Grey Cat The Flag 2026 Finals** | 2026-06-27 02:00 | 1d 0h | Jeopardy | 0.0 |
 | **V1T CTF 2026** | 2026-06-27 02:00 | 1d 12h | Jeopardy | 22.14 |
@@ -14,4 +13,4 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 
 
 ---
-*Last updated: 2026-06-19 14:40:44 (Server Time)*
+*Last updated: 2026-06-19 19:23:56 (Server Time)*
