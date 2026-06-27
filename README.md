@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **SekaiCTF 2026** | 2026-06-27 08:00 | 2d 0h | Jeopardy | 79.25 |
 | **MntcrlCTF 2026** | 2026-06-27 16:00 | 1d 0h | Jeopardy | 0.0 |
 | **MindBreak 2026 by ESGI** | 2026-07-03 21:00 | 9h | Jeopardy | 0.0 |
 | **No Hack No CTF 2026** | 2026-07-04 00:00 | 2d 0h | Jeopardy | 23.47 |
@@ -15,4 +14,4 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 
 
 ---
-*Last updated: 2026-06-27 02:07:48 (Server Time)*
+*Last updated: 2026-06-27 08:24:45 (Server Time)*
