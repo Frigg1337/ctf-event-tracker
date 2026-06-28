@@ -10,8 +10,9 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **R3CTF 2026** | 2026-07-04 02:00 | 2d 0h | Jeopardy | 35.95 |
 | **Fluid Attacks' CTF 2026-2** | 2026-07-04 13:00 | 12h | Jeopardy | 0 |
 | **LYKNCTF** | 2026-07-06 00:00 | 2d 0h | Jeopardy | 0.0 |
+| **L3akCTF 2026** | 2026-07-10 18:00 | 2d 0h | Jeopardy | 34.47 |
 | **Junior.Crypt.2026 CTF** | 2026-07-11 09:00 | 1d 0h | Jeopardy | 23.42 |
 
 
 ---
-*Last updated: 2026-06-28 13:13:55 (Server Time)*
+*Last updated: 2026-06-28 19:00:49 (Server Time)*
