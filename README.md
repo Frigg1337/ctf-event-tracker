@@ -10,9 +10,10 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **Junior.Crypt.2026 CTF** | 2026-07-11 09:00 | 1d 0h | Jeopardy | 23.42 |
 | **BroncoCTF 2026** | 2026-07-11 16:00 | 1d 0h | Jeopardy | 17.41 |
 | **EYCC CTF 2026 ** | 2026-07-17 11:00 | 2d 0h | Jeopardy | 0 |
+| **OmniCTF 2026 Quals** | 2026-07-17 15:00 | 2d 0h | Jeopardy | 0.0 |
 | **HACKSIUM BUSAN 2026 Quals** | 2026-07-18 00:00 | 23h | Jeopardy | 0.0 |
 | **ENOWARS 10** | 2026-07-18 12:00 | 9h | Attack-Defense | 83.5 |
 
 
 ---
-*Last updated: 2026-07-05 13:05:57 (Server Time)*
+*Last updated: 2026-07-05 19:00:00 (Server Time)*
