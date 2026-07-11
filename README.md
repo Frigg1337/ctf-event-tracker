@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **BroncoCTF 2026** | 2026-07-11 16:00 | 1d 0h | Jeopardy | 17.41 |
 | **EYCC CTF 2026 ** | 2026-07-17 11:00 | 2d 0h | Jeopardy | 0 |
 | **OmniCTF 2026 Quals** | 2026-07-17 15:00 | 2d 0h | Jeopardy | 0.0 |
 | **DownUnderCTF 2026 - CANCELLED** | 2026-07-17 19:30 | 2d 0h | Jeopardy | 94.99 |
@@ -15,7 +14,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **HoneyBadger CTF AvitoTech** | 2026-07-18 09:00 | 1d 6h | Jeopardy | 0.0 |
 | **ENOWARS 10** | 2026-07-18 12:00 | 9h | Attack-Defense | 83.5 |
 | **BDSec CTF 2026** | 2026-07-20 15:00 | 1d 0h | Jeopardy | 15.62 |
+| **Codegate CTF 2026 Finals** | 2026-07-23 01:00 | 1d 0h | Jeopardy | 0.0 |
 
 
 ---
-*Last updated: 2026-07-11 12:53:09 (Server Time)*
+*Last updated: 2026-07-11 18:43:24 (Server Time)*
