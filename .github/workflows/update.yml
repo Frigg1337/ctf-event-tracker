@@ -2,15 +2,15 @@ name: Update CTF Tracker
 
 on:
   schedule:
-    # JALAN SETIAP 6 JAM (4x sehari) = 4 Commit per hari = Hijau Gelap
-    - cron: '0 */6 * * *'
+    
+    - cron: '0 */2 * * *'
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Izin update file
+      contents: write 
 
     steps:
       - name: Checkout code
@@ -29,14 +29,16 @@ jobs:
         run: python bot.py
 
       - name: Commit changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --global user.name "CTF-Tracker-Bot"
+          # Mengubah username git ke nama Anda agar kontribusi tercatat lebih rapi
+          git config --global user.name "Frigg1337"
           git config --global user.email "rrado2294@gmail.com"
           git add README.md
           
-          # --- PERUBAHAN UTAMA DI SINI ---
-          # --allow-empty : Memaksa commit meskipun tidak ada perubahan file
-          # Ini menjamin Anda dapat 4 commit setiap hari (Warna Lebih Gelap)
+          # Memaksa commit meskipun tidak ada perubahan file agar mendapat kotak hijau
           git commit -m "🤖 Update jadwal CTF" --allow-empty
           
-          git push
+          # MEMPERBAIKI ERROR PUSH: Memasukkan GITHUB_TOKEN langsung ke URL push
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
