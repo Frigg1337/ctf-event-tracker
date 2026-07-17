@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **DownUnderCTF 2026 - CANCELLED** | 2026-07-17 19:30 | 2d 0h | Jeopardy | 94.99 |
 | **ATHENA CTF** | 2026-07-18 05:30 | 1d 0h | Jeopardy | 0.0 |
 | **AxiomCTF 2026 Finals** | 2026-07-18 07:00 | 8h | Attack-Defense | 0.0 |
 | **HoneyBadger CTF AvitoTech** | 2026-07-18 09:00 | 1d 6h | Jeopardy | 0.0 |
@@ -18,4 +17,4 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 
 
 ---
-*Last updated: 2026-07-17 19:08:47 (Server Time)*
+*Last updated: 2026-07-17 20:55:29 (Server Time)*
