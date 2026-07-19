@@ -10,9 +10,10 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **jailCTF 2026** | 2026-07-24 20:00 | 3d 0h | Jeopardy | 37.0 |
 | **DIVER OSINT CTF 2026** | 2026-07-25 03:10 | 1d 0h | Jeopardy | 0.0 |
 | **D^3CTF 2026** | 2026-07-25 12:00 | 1d 0h | Jeopardy | 69.22 |
+| **BushBash CTF** | 2026-07-31 07:00 | 2d 0h | Jeopardy | 0.0 |
 | **DeadSec CTF 2026 - POSTPONED** | 2026-07-31 12:00 | 1d 0h | Jeopardy | 39.0 |
 | **VuwCTF 2026** | 2026-07-31 22:00 | 1d 7h | Jeopardy | 25.0 |
 
 
 ---
-*Last updated: 2026-07-19 06:30:10 (Server Time)*
+*Last updated: 2026-07-19 09:51:51 (Server Time)*
