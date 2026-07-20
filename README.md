@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **BDSec CTF 2026** | 2026-07-20 15:00 | 1d 0h | Jeopardy | 15.62 |
 | **Codegate CTF 2026 Finals** | 2026-07-23 01:00 | 1d 0h | Jeopardy | 0.0 |
 | **jailCTF 2026** | 2026-07-24 20:00 | 3d 0h | Jeopardy | 37.0 |
 | **DIVER OSINT CTF 2026** | 2026-07-25 03:10 | 1d 0h | Jeopardy | 0.0 |
@@ -18,4 +17,4 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 
 
 ---
-*Last updated: 2026-07-20 14:05:51 (Server Time)*
+*Last updated: 2026-07-20 18:03:08 (Server Time)*
