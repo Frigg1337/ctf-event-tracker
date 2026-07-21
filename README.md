@@ -14,7 +14,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **L3akCTF 2026** | 2026-07-31 18:00 | 2d 0h | Jeopardy | 34.47 |
 | **VuwCTF 2026** | 2026-07-31 22:00 | 1d 7h | Jeopardy | 25.0 |
 | **Universal CTF** | 2026-08-01 07:00 | 1d 8h | Jeopardy | 0.0 |
+| **Lexington Informatics Tournament CTF 2026** | 2026-08-01 15:00 | 2d 0h | Jeopardy | 84.79 |
 
 
 ---
-*Last updated: 2026-07-21 06:28:08 (Server Time)*
+*Last updated: 2026-07-21 10:25:20 (Server Time)*
