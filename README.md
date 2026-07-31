@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **VuwCTF 2026** | 2026-07-31 22:00 | 1d 7h | Jeopardy | 25.0 |
 | **Universal CTF** | 2026-08-01 07:00 | 1d 8h | Jeopardy | 0.0 |
 | **Lexington Informatics Tournament CTF 2026** | 2026-08-01 15:00 | 2d 0h | Jeopardy | 84.79 |
 | **SCAN 2026 Online Qualifier** | 2026-08-02 00:00 | 1d 0h | Jeopardy | 0 |
@@ -15,7 +14,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **DEF CON CTF 2026** | 2026-08-07 16:00 | 2d 3h | Attack-Defense | 0.0 |
 | **scriptCTF 2026** | 2026-08-08 00:00 | 2d 0h | Jeopardy | 24.7 |
 | **UIUCTF 2026** | 2026-08-08 00:00 | 2d 0h | Jeopardy | 69.35 |
+| **Thryve CTF 2026** | 2026-08-14 11:00 | 9h | Jeopardy | 0.0 |
 
 
 ---
-*Last updated: 2026-07-31 21:03:57 (Server Time)*
+*Last updated: 2026-07-31 22:59:50 (Server Time)*
