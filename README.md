@@ -12,7 +12,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **scriptCTF 2026** | 2026-08-08 00:00 | 2d 0h | Jeopardy | 24.7 |
 | **UIUCTF 2026** | 2026-08-08 00:00 | 2d 0h | Jeopardy | 69.35 |
 | **Thryve CTF 2026** | 2026-08-14 11:00 | 9h | Jeopardy | 0.0 |
+| **THJCC CTF 2026 summer** | 2026-08-15 00:00 | 1d 11h | Jeopardy | 0.0 |
 
 
 ---
-*Last updated: 2026-08-02 11:18:52 (Server Time)*
+*Last updated: 2026-08-02 13:20:39 (Server Time)*
