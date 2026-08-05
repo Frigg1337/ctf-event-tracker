@@ -14,7 +14,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **gaslightCTF 2026** | 2026-08-14 12:00 | 3d 0h | Jeopardy | 0.0 |
 | **HackHowl 2026** | 2026-08-15 00:00 | 2d 5h | Jeopardy | 0.0 |
 | **THJCC CTF 2026 summer** | 2026-08-15 00:00 | 1d 11h | Jeopardy | 0.0 |
+| **0xV01D CTF 2026 V2** | 2026-08-15 07:30 | 1d 0h | Jeopardy | 0.0 |
 
 
 ---
-*Last updated: 2026-08-05 10:34:37 (Server Time)*
+*Last updated: 2026-08-05 14:08:45 (Server Time)*
