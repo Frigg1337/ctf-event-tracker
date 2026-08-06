@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **AEROSPACE VILLAGE STARPWN CTF** | 2026-08-06 17:00 | 3d 1h | Jeopardy | 24.65 |
 | **RoboHack AI CTF (Robotic Hacking Community at DEFCON 34)** | 2026-08-07 00:00 | 2d 0h | Hack quest | 0 |
 | **DEF CON CTF 2026** | 2026-08-07 16:00 | 2d 3h | Attack-Defense | 0.0 |
 | **scriptCTF 2026** | 2026-08-08 00:00 | 2d 0h | Jeopardy | 24.7 |
@@ -15,7 +14,8 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **gaslightCTF 2026** | 2026-08-14 12:00 | 3d 0h | Jeopardy | 0.0 |
 | **HackHowl 2026** | 2026-08-15 00:00 | 2d 5h | Jeopardy | 0.0 |
 | **THJCC CTF 2026 summer** | 2026-08-15 00:00 | 1d 11h | Jeopardy | 0.0 |
+| **0xV01D CTF 2026 V2** | 2026-08-15 07:30 | 1d 0h | Jeopardy | 0.0 |
 
 
 ---
-*Last updated: 2026-08-06 14:08:39 (Server Time)*
+*Last updated: 2026-08-06 23:59:10 (Server Time)*
