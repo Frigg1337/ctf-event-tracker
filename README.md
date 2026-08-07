@@ -5,7 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **RoboHack AI CTF (Robotic Hacking Community at DEFCON 34)** | 2026-08-07 00:00 | 2d 0h | Hack quest | 0 |
 | **DEF CON CTF 2026** | 2026-08-07 16:00 | 2d 3h | Attack-Defense | 0.0 |
 | **scriptCTF 2026** | 2026-08-08 00:00 | 2d 0h | Jeopardy | 24.7 |
 | **UIUCTF 2026** | 2026-08-08 00:00 | 2d 0h | Jeopardy | 69.35 |
@@ -18,4 +17,4 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 
 
 ---
-*Last updated: 2026-08-06 23:59:10 (Server Time)*
+*Last updated: 2026-08-07 03:12:13 (Server Time)*
