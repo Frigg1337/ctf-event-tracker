@@ -5,8 +5,6 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
 |------------|---------------------|--------|--------|--------|
-| **scriptCTF 2026** | 2026-08-08 00:00 | 2d 0h | Jeopardy | 24.7 |
-| **UIUCTF 2026** | 2026-08-08 00:00 | 2d 0h | Jeopardy | 69.35 |
 | **The heart of Sysola** | 2026-08-08 13:00 | 12h | Jeopardy | 0.0 |
 | **Thryve CTF 2026** | 2026-08-14 11:00 | 9h | Jeopardy | 0.0 |
 | **gaslightCTF 2026** | 2026-08-14 12:00 | 3d 0h | Jeopardy | 0.0 |
@@ -16,4 +14,4 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 
 
 ---
-*Last updated: 2026-08-07 22:34:55 (Server Time)*
+*Last updated: 2026-08-08 01:38:11 (Server Time)*
