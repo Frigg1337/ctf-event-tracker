@@ -1,4 +1,3 @@
-import sys
 import requests
 from datetime import datetime, timedelta
 
@@ -74,7 +73,7 @@ if __name__ == "__main__":
     print("Memulai tracking...")
     events = get_upcoming_ctfs()
     if events is None:
-        print("Gagal memperbarui README.md. Data terakhir tetap dipertahankan.")
-        sys.exit(1)
-    update_readme(events)
-    print("Selesai! README.md berhasil diupdate.")
+        print("API gagal, README.md dipertahankan. Tetap lanjut agar push/streak berjalan.")
+    else:
+        update_readme(events)
+        print("Selesai! README.md berhasil diupdate.")
