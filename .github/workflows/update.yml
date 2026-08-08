@@ -33,9 +33,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
 
-          # Email noreply format ID selalu terhubung ke akun (streak aman) & email asli tersembunyi
+          # Email asli dipakai karena email sudah publik & pasti terhubung ke akun (streak aman)
           git config --global user.name "Frigg1337"
-          git config --global user.email "203379246+Frigg1337@users.noreply.github.com"
+          git config --global user.email "rrado2294@gmail.com"
           git add README.md
           
           git commit -m "🤖 Update jadwal CTF" --allow-empty
