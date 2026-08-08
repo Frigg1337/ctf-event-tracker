@@ -1,6 +1,6 @@
 # 📡 CTF Event Tracker
 
-Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org) setiap hari jam 07:00 WIB.
+Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org) setiap 2 jam.
 
 ### 🚩 Upcoming Events (Next 14 Days)
 | Nama Event | Tanggal Mulai (UTC) | Durasi | Format | Rating |
@@ -14,4 +14,4 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 
 
 ---
-*Last updated: 2026-08-08 16:32:56 (Server Time)*
+*Last updated: 2026-08-09 00:20:36 (Server Time)*

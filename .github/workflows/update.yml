@@ -14,10 +14,10 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.x'
 
@@ -32,13 +32,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Mengubah username git ke nama Anda agar kontribusi tercatat lebih rapi
+
           git config --global user.name "Frigg1337"
-          git config --global user.email "rrado2294@gmail.com"
+          git config --global user.email "Frigg1337@users.noreply.github.com"
           git add README.md
           
-          # Memaksa commit meskipun tidak ada perubahan file agar mendapat kotak hijau
           git commit -m "🤖 Update jadwal CTF" --allow-empty
           
-          # MEMPERBAIKI ERROR PUSH: Memasukkan GITHUB_TOKEN langsung ke URL push
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main

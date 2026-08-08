@@ -1,3 +1,4 @@
+import sys
 import requests
 from datetime import datetime, timedelta
 
@@ -20,20 +21,21 @@ def get_upcoming_ctfs():
     }
 
     try:
-        response = requests.get(url, headers=headers)
-        if response.status_code == 200:
-            return response.json()
-        else:
-            print(f"Gagal mengambil data. Status: {response.status_code}")
-            return []
+        response = requests.get(url, headers=headers, timeout=15)
+        response.raise_for_status()
+        return response.json()
     except Exception as e:
-        print(f"Error: {e}")
-        return []
+        print(f"Gagal mengambil data dari CTFtime: {e}")
+        return None
 
 def update_readme(events):
+    if events is None:
+        print("API gagal, README.md tidak diubah agar data terakhir tetap tersimpan.")
+        return
+
     # Header README
     content = "# 📡 CTF Event Tracker\n\n"
-    content += "Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org) setiap hari jam 07:00 WIB.\n\n"
+    content += "Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org) setiap 2 jam.\n\n"
     
     # Bagian Tabel
     content += "### 🚩 Upcoming Events (Next 14 Days)\n"
@@ -56,7 +58,7 @@ def update_readme(events):
             duration = f"{dur_days}d {dur_hours}h" if dur_days > 0 else f"{dur_hours}h"
             
             format_ctf = event['format']
-            weight = event['weight']
+            weight = event['weight'] if event['weight'] is not None else "Belum ada"
 
             content += f"| **{name}** | {start_iso} | {duration} | {format_ctf} | {weight} |\n"
 
@@ -71,5 +73,8 @@ def update_readme(events):
 if __name__ == "__main__":
     print("Memulai tracking...")
     events = get_upcoming_ctfs()
+    if events is None:
+        print("Gagal memperbarui README.md. Data terakhir tetap dipertahankan.")
+        sys.exit(1)
     update_readme(events)
     print("Selesai! README.md berhasil diupdate.")
