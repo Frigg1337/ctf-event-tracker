@@ -11,8 +11,9 @@ Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org
 | **THJCC CTF 2026 summer** | 2026-08-15 00:00 | 1d 11h | Jeopardy | 0.0 |
 | **0xV01D CTF 2026 V2** | 2026-08-15 07:30 | 1d 0h | Jeopardy | 0.0 |
 | **PwnSec CTF 2026** | 2026-08-21 14:00 | 1d 0h | Jeopardy | 33.89 |
+| **z0d1ak CTF Qualifiers** | 2026-08-21 16:00 | 1d 12h | Jeopardy | 0.0 |
 | **Haruulzangi CTF 2026 Qualifier** | 2026-08-22 01:00 | 1d 0h | Jeopardy | 0.0 |
 
 
 ---
-*Last updated: 2026-08-09 03:42:28 (Server Time)*
+*Last updated: 2026-08-09 05:04:54 (Server Time)*
