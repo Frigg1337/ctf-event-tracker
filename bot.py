@@ -37,6 +37,17 @@ USER_AGENT = "CTF-Tracker-Bot/3.0 (+https://github.com/Frigg1337/ctf-event-track
 REPO = "Frigg1337/ctf-event-tracker"
 REPO_URL = f"https://github.com/{REPO}"
 
+BADGES: str = (
+    "[![Workflow Status](https://github.com/"
+    f"{REPO}/actions/workflows/update.yml/badge.svg)]"
+    f"({REPO_URL}/actions/workflows/update.yml)"
+    " [![Last Commit](https://img.shields.io/github/last-commit/"
+    f"{REPO})]({REPO_URL}/commits)"
+    f" [![License](https://img.shields.io/github/license/{REPO})](LICENSE)"
+    " [![CTFtime Bot](https://img.shields.io/badge/"
+    "bot-CTFtime%20v3.0-58a6ff)](https://ctftime.org)"
+)
+
 
 def build_session() -> requests.Session:
     """Session dengan retry untuk mengatasi rate-limit/5xx dari CTFtime."""
@@ -255,25 +266,21 @@ def render_readme(
         if e["start"] and e["finish"] and e["start"] <= now < e["finish"]
     ]
 
-    content = "# CTF Event Tracker\n\n"
-    content += (
+    content = (
+        '<div align="center">\n\n'
+        "# CTF Event Tracker\n\n"
         "Repository ini otomatis mengupdate jadwal CTF dari "
         "CTFtime setiap 2 jam.\n\n"
-    )
-    content += (
-        f"[CTFtime](https://ctftime.org) · "
-        f"[Repo]({REPO_URL}) · "
-        f"[![Workflow Status](https://github.com/{REPO}/actions/workflows/update.yml/badge.svg)]"
-        f"({REPO_URL}/actions/workflows/update.yml)\n\n"
-    )
-    content += (
-        f"`{len(upcoming)} upcoming · {total_tracked} ditrack · "
+        + BADGES
+        + "\n\n"
+        + f"`{len(upcoming)} upcoming · {total_tracked} ditrack · "
         f"update terakhir {now.strftime('%Y-%m-%d %H:%M:%S')} UTC`\n\n"
+        "</div>\n\n"
     )
     content += (
-        "[Berlangsung](#berlangsung) · "
-        "[Upcoming](#upcoming-next-14-days) · "
-        "[Sudah Berakhir](#sudah-berakhir-7-hari-terakhir)\n\n"
+        "[🟢 Berlangsung](#berlangsung) · "
+        "[📅 Upcoming](#upcoming-next-14-days) · "
+        "[✅ Sudah Berakhir](#sudah-berakhir-7-hari-terakhir)\n\n"
     )
 
     if ongoing:

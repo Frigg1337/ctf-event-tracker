@@ -1,12 +1,16 @@
+<div align="center">
+
 # CTF Event Tracker
 
 Repository ini otomatis mengupdate jadwal CTF dari CTFtime setiap 2 jam.
 
-[CTFtime](https://ctftime.org) · [Repo](https://github.com/Frigg1337/ctf-event-tracker) · [![Workflow Status](https://github.com/Frigg1337/ctf-event-tracker/actions/workflows/update.yml/badge.svg)](https://github.com/Frigg1337/ctf-event-tracker/actions/workflows/update.yml)
+[![Workflow Status](https://github.com/Frigg1337/ctf-event-tracker/actions/workflows/update.yml/badge.svg)](https://github.com/Frigg1337/ctf-event-tracker/actions/workflows/update.yml) [![Last Commit](https://img.shields.io/github/last-commit/Frigg1337/ctf-event-tracker)](https://github.com/Frigg1337/ctf-event-tracker/commits) [![License](https://img.shields.io/github/license/Frigg1337/ctf-event-tracker)](LICENSE) [![CTFtime Bot](https://img.shields.io/badge/bot-CTFtime%20v3.0-58a6ff)](https://ctftime.org)
 
-`9 upcoming · 16 ditrack · update terakhir 2026-08-12 03:53:00 UTC`
+`9 upcoming · 16 ditrack · update terakhir 2026-08-12 04:04:14 UTC`
 
-[Berlangsung](#berlangsung) · [Upcoming](#upcoming-next-14-days) · [Sudah Berakhir](#sudah-berakhir-7-hari-terakhir)
+</div>
+
+[🟢 Berlangsung](#berlangsung) · [📅 Upcoming](#upcoming-next-14-days) · [✅ Sudah Berakhir](#sudah-berakhir-7-hari-terakhir)
 
 ### Upcoming (Next 14 Days)
 <details open><summary>Expand / Collapse</summary>
@@ -40,4 +44,4 @@ Repository ini otomatis mengupdate jadwal CTF dari CTFtime setiap 2 jam.
 
 
 ---
-*Last updated: 2026-08-12 03:53:00 UTC — dihasilkan otomatis oleh [ctf-event-tracker](https://github.com/Frigg1337/ctf-event-tracker)*
+*Last updated: 2026-08-12 04:04:14 UTC — dihasilkan otomatis oleh [ctf-event-tracker](https://github.com/Frigg1337/ctf-event-tracker)*

@@ -210,7 +210,15 @@ def test_render_upcoming_columns():
     events = [bot.parse_event(make_event())]
     content = bot.render_readme(events, [], 5, now=NOW)
     assert "# CTF Event Tracker" in content
+    assert '<div align="center">' in content
+    assert "img.shields.io/github/last-commit" in content
+    assert "img.shields.io/github/license" in content
+    assert "img.shields.io/badge/bot-CTFtime" in content
+    assert "actions/workflows/update.yml/badge.svg" in content
     assert "Workflow Status" in content
+    assert "[🟢 Berlangsung]" in content
+    assert "[📅 Upcoming]" in content
+    assert "[✅ Sudah Berakhir]" in content
     assert "https://ctftime.org/event/1" in content
     assert "14 Agu" in content
     assert "Jumat" in content
