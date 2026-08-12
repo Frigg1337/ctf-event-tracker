@@ -1,0 +1,178 @@
+{
+  "3330": {
+    "id": "3330",
+    "title": "Thryve CTF 2026",
+    "url": "https://ctf.thryvectf.org/",
+    "start": "2026-08-14T11:00:00+00:00",
+    "finish": "2026-08-14T20:00:00+00:00",
+    "format": "Jeopardy",
+    "weight": "Belum ada",
+    "last_seen": "2026-08-12T02:33:33+00:00",
+    "first_seen": "2026-08-12T02:25:30+00:00"
+  },
+  "3181": {
+    "id": "3181",
+    "title": "gaslightCTF 2026",
+    "url": "https://gaslightctf.cooking/",
+    "start": "2026-08-14T12:00:00+00:00",
+    "finish": "2026-08-17T12:00:00+00:00",
+    "format": "Jeopardy",
+    "weight": "Belum ada",
+    "last_seen": "2026-08-12T02:33:33+00:00",
+    "first_seen": "2026-08-12T02:25:30+00:00"
+  },
+  "3318": {
+    "id": "3318",
+    "title": "HackHowl 2026",
+    "url": "https://hackhowl.com/",
+    "start": "2026-08-15T00:00:00+00:00",
+    "finish": "2026-08-17T05:00:00+00:00",
+    "format": "Jeopardy",
+    "weight": "Belum ada",
+    "last_seen": "2026-08-12T02:33:33+00:00",
+    "first_seen": "2026-08-12T02:25:30+00:00"
+  },
+  "3343": {
+    "id": "3343",
+    "title": "THJCC CTF 2026 summer",
+    "url": "https://ctf2026-sum.thjcc.org/",
+    "start": "2026-08-15T00:00:01+00:00",
+    "finish": "2026-08-16T12:00:00+00:00",
+    "format": "Jeopardy",
+    "weight": "Belum ada",
+    "last_seen": "2026-08-12T02:33:33+00:00",
+    "first_seen": "2026-08-12T02:25:30+00:00"
+  },
+  "3387": {
+    "id": "3387",
+    "title": "0xV01D CTF 2026 V2",
+    "url": "https://0xv01d-ctf.xyz/",
+    "start": "2026-08-15T07:30:00+00:00",
+    "finish": "2026-08-16T07:30:00+00:00",
+    "format": "Jeopardy",
+    "weight": "Belum ada",
+    "last_seen": "2026-08-12T02:33:33+00:00",
+    "first_seen": "2026-08-12T02:25:30+00:00"
+  },
+  "3065": {
+    "id": "3065",
+    "title": "BrunnerCTF 2026",
+    "url": "https://ctf.brunnerne.dk/",
+    "start": "2026-08-21T12:00:00+00:00",
+    "finish": "2026-08-23T12:00:00+00:00",
+    "format": "Jeopardy",
+    "weight": "24.66",
+    "last_seen": "2026-08-12T02:33:33+00:00",
+    "first_seen": "2026-08-12T02:25:30+00:00"
+  },
+  "3159": {
+    "id": "3159",
+    "title": "PwnSec CTF 2026",
+    "url": "https://ctf.pwnsec.team/",
+    "start": "2026-08-21T14:00:00+00:00",
+    "finish": "2026-08-22T14:00:00+00:00",
+    "format": "Jeopardy",
+    "weight": "33.89",
+    "last_seen": "2026-08-12T02:33:33+00:00",
+    "first_seen": "2026-08-12T02:25:30+00:00"
+  },
+  "3370": {
+    "id": "3370",
+    "title": "z0d1ak CTF Qualifiers",
+    "url": "http://ctf.z0d1ak.org/",
+    "start": "2026-08-21T16:00:00+00:00",
+    "finish": "2026-08-23T04:00:00+00:00",
+    "format": "Jeopardy",
+    "weight": "Belum ada",
+    "last_seen": "2026-08-12T02:33:33+00:00",
+    "first_seen": "2026-08-12T02:25:30+00:00"
+  },
+  "3379": {
+    "id": "3379",
+    "title": "Haruulzangi CTF 2026 Qualifier",
+    "url": "https://2026.haruulzangi.mn/",
+    "start": "2026-08-22T01:00:00+00:00",
+    "finish": "2026-08-23T01:00:00+00:00",
+    "format": "Jeopardy",
+    "weight": "Belum ada",
+    "last_seen": "2026-08-12T02:33:33+00:00",
+    "first_seen": "2026-08-12T02:25:30+00:00"
+  },
+  "3328": {
+    "id": "3328",
+    "title": "Kali Team - CTF 26",
+    "url": "https://kali-team.online/",
+    "start": "2026-08-05T07:00:00+00:00",
+    "finish": "2026-08-05T19:00:00+00:00",
+    "format": "Jeopardy",
+    "weight": "Belum ada",
+    "last_seen": "2026-08-12T02:33:33+00:00",
+    "first_seen": "2026-08-12T02:33:33+00:00"
+  },
+  "3342": {
+    "id": "3342",
+    "title": "AEROSPACE VILLAGE STARPWN CTF",
+    "url": "https://starpwn.ctfd.io/",
+    "start": "2026-08-06T17:00:00+00:00",
+    "finish": "2026-08-09T18:00:00+00:00",
+    "format": "Jeopardy",
+    "weight": "24.65",
+    "last_seen": "2026-08-12T02:33:33+00:00",
+    "first_seen": "2026-08-12T02:33:33+00:00"
+  },
+  "3305": {
+    "id": "3305",
+    "title": "RoboHack AI CTF (Robotic Hacking Community at DEFCON 34)",
+    "url": "https://www.robotichackingcommunity.com/",
+    "start": "2026-08-07T00:00:00+00:00",
+    "finish": "2026-08-09T00:00:00+00:00",
+    "format": "Hack quest",
+    "weight": "Belum ada",
+    "last_seen": "2026-08-12T02:33:33+00:00",
+    "first_seen": "2026-08-12T02:33:33+00:00"
+  },
+  "3322": {
+    "id": "3322",
+    "title": "DEF CON CTF 2026",
+    "url": "https://bbbirds.org/",
+    "start": "2026-08-07T16:00:00+00:00",
+    "finish": "2026-08-09T19:00:00+00:00",
+    "format": "Attack-Defense",
+    "weight": "Belum ada",
+    "last_seen": "2026-08-12T02:33:33+00:00",
+    "first_seen": "2026-08-12T02:33:33+00:00"
+  },
+  "3052": {
+    "id": "3052",
+    "title": "scriptCTF 2026",
+    "url": "https://ctf.scriptsorcerers.xyz/",
+    "start": "2026-08-08T00:00:00+00:00",
+    "finish": "2026-08-10T00:00:00+00:00",
+    "format": "Jeopardy",
+    "weight": "24.70",
+    "last_seen": "2026-08-12T02:33:33+00:00",
+    "first_seen": "2026-08-12T02:33:33+00:00"
+  },
+  "3148": {
+    "id": "3148",
+    "title": "UIUCTF 2026",
+    "url": "https://uiuc.tf/",
+    "start": "2026-08-08T00:00:00+00:00",
+    "finish": "2026-08-10T00:00:00+00:00",
+    "format": "Jeopardy",
+    "weight": "69.35",
+    "last_seen": "2026-08-12T02:33:33+00:00",
+    "first_seen": "2026-08-12T02:33:33+00:00"
+  },
+  "3382": {
+    "id": "3382",
+    "title": "The heart of Sysola",
+    "url": "https://caplag.ru/competitions/the-heart-of-sysola",
+    "start": "2026-08-08T13:00:00+00:00",
+    "finish": "2026-08-09T01:00:00+00:00",
+    "format": "Jeopardy",
+    "weight": "Belum ada",
+    "last_seen": "2026-08-12T02:33:33+00:00",
+    "first_seen": "2026-08-12T02:33:33+00:00"
+  }
+}

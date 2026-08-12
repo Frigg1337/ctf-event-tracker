@@ -1,2 +1,45 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Lingkungan & secret — JANGAN PERNAH DI-PUSH
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.p8
+id_rsa
+id_ed25519
+.netrc
+.git-credentials
+
+# Cache tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Log
+*.log
+
+# Dokumentasi lokal — JANGAN DI-PUSH
+DEVELOPMENT.md
+
+# IDE & editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
