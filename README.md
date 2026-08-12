@@ -4,7 +4,7 @@ Repository ini otomatis mengupdate jadwal CTF dari CTFtime setiap 2 jam.
 
 [CTFtime](https://ctftime.org) · [Repo](https://github.com/Frigg1337/ctf-event-tracker) · [![Workflow Status](https://github.com/Frigg1337/ctf-event-tracker/actions/workflows/update.yml/badge.svg)](https://github.com/Frigg1337/ctf-event-tracker/actions/workflows/update.yml)
 
-`9 upcoming · 16 ditrack · update terakhir 2026-08-12 03:33:04 UTC`
+`9 upcoming · 16 ditrack · update terakhir 2026-08-12 03:33:45 UTC`
 
 [Berlangsung](#berlangsung) · [Upcoming](#upcoming-next-14-days) · [Sudah Berakhir](#sudah-berakhir-7-hari-terakhir)
 
@@ -61,4 +61,4 @@ Sabtu, 8 Agu · 20:00–08:00 WIB · 12h · Jeopardy · Rating Belum ada |
 
 
 ---
-*Last updated: 2026-08-12 03:33:04 UTC — dihasilkan otomatis oleh [ctf-event-tracker](https://github.com/Frigg1337/ctf-event-tracker)*
+*Last updated: 2026-08-12 03:33:45 UTC — dihasilkan otomatis oleh [ctf-event-tracker](https://github.com/Frigg1337/ctf-event-tracker)*
