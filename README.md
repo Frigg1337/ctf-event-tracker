@@ -6,7 +6,7 @@ Repository ini otomatis mengupdate jadwal CTF dari CTFtime setiap 2 jam.
 
 [![Workflow Status](https://github.com/Frigg1337/ctf-event-tracker/actions/workflows/update.yml/badge.svg)](https://github.com/Frigg1337/ctf-event-tracker/actions/workflows/update.yml) [![Last Commit](https://img.shields.io/github/last-commit/Frigg1337/ctf-event-tracker)](https://github.com/Frigg1337/ctf-event-tracker/commits) [![License](https://img.shields.io/github/license/Frigg1337/ctf-event-tracker)](LICENSE) [![CTFtime Bot](https://img.shields.io/badge/bot-CTFtime%20v3.0-58a6ff)](https://ctftime.org)
 
-`9 upcoming · 16 ditrack · update terakhir 2026-08-12 04:04:14 UTC`
+`9 upcoming · 16 ditrack · update terakhir 2026-08-12 04:08:49 UTC`
 
 </div>
 
@@ -44,4 +44,4 @@ Repository ini otomatis mengupdate jadwal CTF dari CTFtime setiap 2 jam.
 
 
 ---
-*Last updated: 2026-08-12 04:04:14 UTC — dihasilkan otomatis oleh [ctf-event-tracker](https://github.com/Frigg1337/ctf-event-tracker)*
+*Last updated: 2026-08-12 04:08:49 UTC — dihasilkan otomatis oleh [ctf-event-tracker](https://github.com/Frigg1337/ctf-event-tracker)*
