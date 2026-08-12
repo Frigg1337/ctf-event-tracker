@@ -215,27 +215,27 @@ def meta_line(ev: Event) -> str:
 
 def render_timeline(events: List[Event], now: datetime, mode: str = "upcoming") -> str:
     """Timeline list: tanggal di kiri, nama + meta + progress bar di kanan."""
-    lines = []
+    lines = ["| Jadwal | Event |", "|--------|-------|"]
     for ev in events:
         name = f"[{ev['name']}]({ev['url']})" if ev["url"] else ev["name"]
         left = f"{fmt_weekday(ev['start'])} · {fmt_month_day(ev['start'])}"
         if mode == "ongoing":
-            right = f"🏃 **{name}**  \n{meta_line(ev)}"
+            right = f"🏃 **{name}**<br>{meta_line(ev)}"
         else:
             pct = progress_pct(ev, now, mode=mode)
             color = bar_color(ev, now, mode=mode)
-            right = f"**{name}**  \n{meta_line(ev)}  \n{progress_bar(pct, color)}"
+            right = f"**{name}**<br>{meta_line(ev)}<br>{progress_bar(pct, color)}"
         lines.append(f"| {left} | {right} |")
     return "\n".join(lines)
 
 
 def render_past_timeline(events: List[Event]) -> str:
     """Timeline list untuk event yang sudah berakhir (tanpa progress bar)."""
-    lines = []
+    lines = ["| Jadwal | Event |", "|--------|-------|"]
     for ev in events:
         name = f"[{ev['name']}]({ev['url']})" if ev["url"] else ev["name"]
         left = f"{fmt_weekday(ev['start'])} · {fmt_month_day(ev['start'])}"
-        lines.append(f"| ✅ {left} | **{name}**  \n{meta_line(ev)} |")
+        lines.append(f"| ✅ {left} | **{name}**<br>{meta_line(ev)} |")
     return "\n".join(lines)
 
 

@@ -119,8 +119,12 @@ def test_render_timeline_upcoming():
         )
     )
     line = bot.render_timeline([ev], NOW, mode="upcoming")
+    assert line.startswith("| Jadwal | Event |")
+    assert "|--------|-------|" in line
     assert "| Jumat · 14 Agu |" in line
     assert "[Test CTF](https://ctftime.org/event/1)" in line
+    assert '<br>' in line
+    assert '\n' not in line.split("| Jumat · 14 Agu |", 1)[1].rsplit("|", 1)[0].replace("<br>", "")
     assert 'progress-bar.dev' in line
     assert 'color=58a6ff' in line
 
@@ -150,7 +154,10 @@ def test_render_past_timeline():
         )
     )
     line = bot.render_past_timeline([ev])
+    assert line.startswith("| Jadwal | Event |")
+    assert "|--------|-------|" in line
     assert "✅" in line
+    assert "<br>" in line
     assert "progress-bar.dev" not in line
     assert "Jeopardy" in line
 
