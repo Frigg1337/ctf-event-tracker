@@ -83,14 +83,14 @@ def test_bar_color():
 
 
 def test_progress_bar():
-    img50 = '<img alt="50%" src="https://progress-bar.dev/50/?color=58a6ff&width=140" />'
-    img100 = '<img alt="100%" src="https://progress-bar.dev/100/?color=3fb950&width=140" />'
-    img0 = '<img alt="0%" src="https://progress-bar.dev/0/?color=3fb950&width=140" />'
-    img100_red = '<img alt="100%" src="https://progress-bar.dev/100/?color=d73a49&width=140" />'
-    assert bot.progress_bar(50, "58a6ff") == img50
-    assert bot.progress_bar(100, "3fb950") == img100
-    assert bot.progress_bar(-5, "3fb950") == img0
-    assert bot.progress_bar(150, "d73a49") == img100_red
+    bar50 = "██████████░░░░░░░░░░ 50%"
+    bar100 = "████████████████████ 100%"
+    bar0 = "░░░░░░░░░░░░░░░░░░░░ 0%"
+    bar83 = "█████████████████░░░ 83%"
+    assert bot.progress_bar(50, "58a6ff") == bar50
+    assert bot.progress_bar(100, "3fb950") == bar100
+    assert bot.progress_bar(-5, "3fb950") == bar0
+    assert bot.progress_bar(83, "58a6ff") == bar83
 
 
 def test_meta_line():
@@ -122,11 +122,10 @@ def test_render_timeline_upcoming():
     assert line.startswith("| Jadwal | Event |")
     assert "|--------|-------|" in line
     assert "| Jumat · 14 Agu |" in line
-    assert "[Test CTF](https://ctftime.org/event/1)" in line
+    assert '[Test CTF](https://ctftime.org/event/1)' in line
     assert '<br>' in line
-    assert '\n' not in line.split("| Jumat · 14 Agu |", 1)[1].rsplit("|", 1)[0].replace("<br>", "")
-    assert 'progress-bar.dev' in line
-    assert 'color=58a6ff' in line
+    assert '█' in line
+    assert '%' in line
 
 
 def test_render_timeline_ongoing_no_bar():
@@ -139,7 +138,7 @@ def test_render_timeline_ongoing_no_bar():
         )
     )
     line = bot.render_timeline([ev], NOW, mode="ongoing")
-    assert "progress-bar.dev" not in line
+    assert "█" not in line
     assert "🏃" in line
 
 
@@ -158,7 +157,7 @@ def test_render_past_timeline():
     assert "|--------|-------|" in line
     assert "✅" in line
     assert "<br>" in line
-    assert "progress-bar.dev" not in line
+    assert "█" not in line
     assert "Jeopardy" in line
 
 
@@ -217,7 +216,8 @@ def test_render_upcoming_columns():
     assert "Jumat" in content
     assert "18:00–03:00 WIB" in content
     assert "Rating Belum ada" in content
-    assert "color=58a6ff" in content
+    assert "█" in content
+    assert "%" in content
     assert "1 upcoming · 5 ditrack" in content
     assert "### Upcoming (Next 14 Days)" in content
     assert "#upcoming-next-14-days" in content

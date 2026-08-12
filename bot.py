@@ -190,7 +190,8 @@ def bar_color(event: Event, now: datetime, mode: str = "upcoming") -> str:
 
 def progress_bar(pct: int, color: str) -> str:
     clamped = max(0, min(100, pct))
-    return f'<img alt="{clamped}%" src="https://progress-bar.dev/{clamped}/?color={color}&width=140" />'
+    filled = round(clamped / 100 * 20)
+    return f"{'█' * filled}{'░' * (20 - filled)} {clamped}%"
 
 
 def meta_line(ev: Event) -> str:
