@@ -1,34 +1,64 @@
-# 📡 CTF Event Tracker
+# CTF Event Tracker
 
-[![Workflow Status](https://github.com/Frigg1337/ctf-event-tracker/actions/workflows/update.yml/badge.svg)](https://github.com/Frigg1337/ctf-event-tracker/actions/workflows/update.yml)
+Repository ini otomatis mengupdate jadwal CTF dari CTFtime setiap 2 jam.
 
-![Last Update: 2026-08-12 03:05:05 UTC](https://img.shields.io/badge/Last%20Update-2026-08-12%2003%3A05%3A05%20UTC-brightgreen) ![Event 14 Hari: 9](https://img.shields.io/badge/Event%2014%20Hari-9-blue) ![Total Ditrack: 16](https://img.shields.io/badge/Total%20Ditrack-16-orange)
+[CTFtime](https://ctftime.org) · [Repo](https://github.com/Frigg1337/ctf-event-tracker) · [![Workflow Status](https://github.com/Frigg1337/ctf-event-tracker/actions/workflows/update.yml/badge.svg)](https://github.com/Frigg1337/ctf-event-tracker/actions/workflows/update.yml)
 
-Repository ini otomatis mengupdate jadwal CTF dari [CTFtime](https://ctftime.org) setiap 2 jam.
+`9 upcoming · 16 ditrack · update terakhir 2026-08-12 03:33:04 UTC`
 
-### 🚩 Upcoming Events (Next 14 Days)
-| Event | Mulai (UTC) | Mulai (Asia/Jakarta) | Berakhir (UTC) | Sisa Waktu | Durasi | Format | Rating |
-|-------|-------------|--------------------|----------------|------------|--------|--------|--------|
-| [Thryve CTF 2026](https://ctf.thryvectf.org/) | 2026-08-14 11:00 | 2026-08-14 18:00 | 2026-08-14 20:00 | 2 hari 7 jam | 9h | Jeopardy | Belum ada |
-| [gaslightCTF 2026](https://gaslightctf.cooking/) | 2026-08-14 12:00 | 2026-08-14 19:00 | 2026-08-17 12:00 | 2 hari 8 jam | 3d 0h | Jeopardy | Belum ada |
-| [HackHowl 2026](https://hackhowl.com/) | 2026-08-15 00:00 | 2026-08-15 07:00 | 2026-08-17 05:00 | 2 hari 20 jam | 2d 5h | Jeopardy | Belum ada |
-| [THJCC CTF 2026 summer](https://ctf2026-sum.thjcc.org/) | 2026-08-15 00:00 | 2026-08-15 07:00 | 2026-08-16 12:00 | 2 hari 20 jam | 1d 11h | Jeopardy | Belum ada |
-| [0xV01D CTF 2026 V2](https://0xv01d-ctf.xyz/) | 2026-08-15 07:30 | 2026-08-15 14:30 | 2026-08-16 07:30 | 3 hari 4 jam | 1d 0h | Jeopardy | Belum ada |
-| [BrunnerCTF 2026](https://ctf.brunnerne.dk/) | 2026-08-21 12:00 | 2026-08-21 19:00 | 2026-08-23 12:00 | 9 hari 8 jam | 2d 0h | Jeopardy | 24.66 |
-| [PwnSec CTF 2026](https://ctf.pwnsec.team/) | 2026-08-21 14:00 | 2026-08-21 21:00 | 2026-08-22 14:00 | 9 hari 10 jam | 1d 0h | Jeopardy | 33.89 |
-| [z0d1ak CTF Qualifiers](http://ctf.z0d1ak.org/) | 2026-08-21 16:00 | 2026-08-21 23:00 | 2026-08-23 04:00 | 9 hari 12 jam | 1d 12h | Jeopardy | Belum ada |
-| [Haruulzangi CTF 2026 Qualifier](https://2026.haruulzangi.mn/) | 2026-08-22 01:00 | 2026-08-22 08:00 | 2026-08-23 01:00 | 9 hari 21 jam | 1d 0h | Jeopardy | Belum ada |
+[Berlangsung](#berlangsung) · [Upcoming](#upcoming-next-14-days) · [Sudah Berakhir](#sudah-berakhir-7-hari-terakhir)
 
-### 🏁 Sudah Berakhir (7 Hari Terakhir)
-| Event | Mulai (UTC) | Berakhir (UTC) | Format | Rating |
-|-------|-------------|----------------|--------|--------|
-| [Kali Team - CTF 26](https://kali-team.online/) | 2026-08-05 07:00 | 2026-08-05 19:00 | Jeopardy | Belum ada |
-| [AEROSPACE VILLAGE STARPWN CTF](https://starpwn.ctfd.io/) | 2026-08-06 17:00 | 2026-08-09 18:00 | Jeopardy | 24.65 |
-| [RoboHack AI CTF (Robotic Hacking Community at DEFCON 34)](https://www.robotichackingcommunity.com/) | 2026-08-07 00:00 | 2026-08-09 00:00 | Hack quest | Belum ada |
-| [DEF CON CTF 2026](https://bbbirds.org/) | 2026-08-07 16:00 | 2026-08-09 19:00 | Attack-Defense | Belum ada |
-| [scriptCTF 2026](https://ctf.scriptsorcerers.xyz/) | 2026-08-08 00:00 | 2026-08-10 00:00 | Jeopardy | 24.70 |
-| [UIUCTF 2026](https://uiuc.tf/) | 2026-08-08 00:00 | 2026-08-10 00:00 | Jeopardy | 69.35 |
-| [The heart of Sysola](https://caplag.ru/competitions/the-heart-of-sysola) | 2026-08-08 13:00 | 2026-08-09 01:00 | Jeopardy | Belum ada |
+### Upcoming (Next 14 Days)
+<details open><summary>Expand / Collapse</summary>
+
+| Jumat · 14 Agu | **[Thryve CTF 2026](https://ctf.thryvectf.org/)**  
+Jumat, 14 Agu · 18:00–03:00 WIB · 9h · Jeopardy · Rating Belum ada  
+<img alt="83%" src="https://progress-bar.dev/83/?color=58a6ff&width=140" /> |
+| Jumat · 14 Agu | **[gaslightCTF 2026](https://gaslightctf.cooking/)**  
+Jumat, 14 Agu · 19:00–19:00 WIB · 3d 0h · Jeopardy · Rating Belum ada  
+<img alt="83%" src="https://progress-bar.dev/83/?color=58a6ff&width=140" /> |
+| Sabtu · 15 Agu | **[HackHowl 2026](https://hackhowl.com/)**  
+Sabtu, 15 Agu · 07:00–12:00 WIB · 2d 5h · Jeopardy · Rating Belum ada  
+<img alt="79%" src="https://progress-bar.dev/79/?color=58a6ff&width=140" /> |
+| Sabtu · 15 Agu | **[THJCC CTF 2026 summer](https://ctf2026-sum.thjcc.org/)**  
+Sabtu, 15 Agu · 07:00–19:00 WIB · 1d 11h · Jeopardy · Rating Belum ada  
+<img alt="79%" src="https://progress-bar.dev/79/?color=58a6ff&width=140" /> |
+| Sabtu · 15 Agu | **[0xV01D CTF 2026 V2](https://0xv01d-ctf.xyz/)**  
+Sabtu, 15 Agu · 14:30–14:30 WIB · 1d 0h · Jeopardy · Rating Belum ada  
+<img alt="77%" src="https://progress-bar.dev/77/?color=58a6ff&width=140" /> |
+| Jumat · 21 Agu | **[BrunnerCTF 2026](https://ctf.brunnerne.dk/)**  
+Jumat, 21 Agu · 19:00–19:00 WIB · 2d 0h · Jeopardy · Rating 24.66  
+<img alt="33%" src="https://progress-bar.dev/33/?color=3fb950&width=140" /> |
+| Jumat · 21 Agu | **[PwnSec CTF 2026](https://ctf.pwnsec.team/)**  
+Jumat, 21 Agu · 21:00–21:00 WIB · 1d 0h · Jeopardy · Rating 33.89  
+<img alt="32%" src="https://progress-bar.dev/32/?color=3fb950&width=140" /> |
+| Jumat · 21 Agu | **[z0d1ak CTF Qualifiers](http://ctf.z0d1ak.org/)**  
+Jumat, 21 Agu · 23:00–11:00 WIB · 1d 12h · Jeopardy · Rating Belum ada  
+<img alt="32%" src="https://progress-bar.dev/32/?color=3fb950&width=140" /> |
+| Sabtu · 22 Agu | **[Haruulzangi CTF 2026 Qualifier](https://2026.haruulzangi.mn/)**  
+Sabtu, 22 Agu · 08:00–08:00 WIB · 1d 0h · Jeopardy · Rating Belum ada  
+<img alt="29%" src="https://progress-bar.dev/29/?color=3fb950&width=140" /> |
+</details>
+
+### Sudah Berakhir (7 Hari Terakhir)
+<details><summary>Expand / Collapse</summary>
+
+| ✅ Rabu · 5 Agu | **[Kali Team - CTF 26](https://kali-team.online/)**  
+Rabu, 5 Agu · 14:00–02:00 WIB · 12h · Jeopardy · Rating Belum ada |
+| ✅ Kamis · 6 Agu | **[AEROSPACE VILLAGE STARPWN CTF](https://starpwn.ctfd.io/)**  
+Kamis, 6 Agu · 00:00–01:00 WIB · 3d 1h · Jeopardy · Rating 24.65 |
+| ✅ Jumat · 7 Agu | **[RoboHack AI CTF (Robotic Hacking Community at DEFCON 34)](https://www.robotichackingcommunity.com/)**  
+Jumat, 7 Agu · 07:00–07:00 WIB · 2d 0h · Hack quest · Rating Belum ada |
+| ✅ Jumat · 7 Agu | **[DEF CON CTF 2026](https://bbbirds.org/)**  
+Jumat, 7 Agu · 23:00–02:00 WIB · 2d 3h · Attack-Defense · Rating Belum ada |
+| ✅ Sabtu · 8 Agu | **[scriptCTF 2026](https://ctf.scriptsorcerers.xyz/)**  
+Sabtu, 8 Agu · 07:00–07:00 WIB · 2d 0h · Jeopardy · Rating 24.70 |
+| ✅ Sabtu · 8 Agu | **[UIUCTF 2026](https://uiuc.tf/)**  
+Sabtu, 8 Agu · 07:00–07:00 WIB · 2d 0h · Jeopardy · Rating 69.35 |
+| ✅ Sabtu · 8 Agu | **[The heart of Sysola](https://caplag.ru/competitions/the-heart-of-sysola)**  
+Sabtu, 8 Agu · 20:00–08:00 WIB · 12h · Jeopardy · Rating Belum ada |
+</details>
+
 
 ---
-*Last updated: 2026-08-12 03:05:05 UTC — dihasilkan otomatis oleh [ctf-event-tracker](https://github.com/Frigg1337/ctf-event-tracker)*
+*Last updated: 2026-08-12 03:33:04 UTC — dihasilkan otomatis oleh [ctf-event-tracker](https://github.com/Frigg1337/ctf-event-tracker)*

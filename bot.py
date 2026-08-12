@@ -5,7 +5,6 @@ import os
 import sys
 from datetime import datetime, timedelta, timezone
 from typing import Any, Dict, List, Optional
-from urllib.parse import quote
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 import requests
@@ -37,13 +36,6 @@ API_URL = "https://ctftime.org/api/v1/events/"
 USER_AGENT = "CTF-Tracker-Bot/3.0 (+https://github.com/Frigg1337/ctf-event-tracker)"
 REPO = "Frigg1337/ctf-event-tracker"
 REPO_URL = f"https://github.com/{REPO}"
-
-
-def badge(label: str, value: str, color: str) -> str:
-    """Shields.io badge dengan URL-encoding yang benar."""
-    label_enc = quote(label, safe="")
-    value_enc = quote(value, safe="")
-    return f"![{label}: {value}](https://img.shields.io/badge/{label_enc}-{value_enc}-{color})"
 
 
 def build_session() -> requests.Session:
@@ -152,32 +144,98 @@ def fmt_local(dt: Optional[datetime]) -> str:
     return dt.astimezone(LOCAL_TZ).strftime("%Y-%m-%d %H:%M") if dt else "-"
 
 
-def render_table(events: List[Event], now: datetime) -> str:
-    tz_col = f"Mulai ({LOCAL_TZ_NAME})"
-    header = f"| Event | Mulai (UTC) | {tz_col} | Berakhir (UTC) | Sisa Waktu | Durasi | Format | Rating |"
-    sep = "|-------|-------------|" + ("-" * len(tz_col)) + "|----------------|------------|--------|--------|--------|"
-    lines = [header, sep]
-    for ev in events:
-        link = f"[{ev['name']}]({ev['url']})" if ev["url"] else ev["name"]
-        lines.append(
-            f"| {link} | {fmt_utc(ev['start'])} | {fmt_local(ev['start'])} | "
-            f"{fmt_utc(ev['finish'])} | {describe_time_left(now, ev['start'])} | "
-            f"{ev['duration']} | {ev['format']} | {ev['weight_txt']} |"
+MONTHS_ID = ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des"]
+DAYS_ID = ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"]
+
+
+def fmt_month_day(dt: Optional[datetime]) -> str:
+    if not dt:
+        return "-"
+    return f"{dt.day} {MONTHS_ID[dt.month - 1]}"
+
+
+def fmt_weekday(dt: Optional[datetime]) -> str:
+    if not dt:
+        return "-"
+    return DAYS_ID[dt.weekday()]
+
+
+def progress_pct(event: Event, now: datetime, mode: str = "upcoming") -> int:
+    start, finish = event.get("start"), event.get("finish")
+    if not start:
+        return 0
+    if mode == "ongoing":
+        if not finish or finish <= start:
+            return 100
+        elapsed = (now - start).total_seconds()
+        total = (finish - start).total_seconds()
+        pct = elapsed / total * 100
+    else:
+        window = DAYS_AHEAD * 86400
+        remaining = (start - now).total_seconds()
+        pct = (1 - remaining / window) * 100
+    return max(0, min(100, int(pct)))
+
+
+def bar_color(event: Event, now: datetime, mode: str = "upcoming") -> str:
+    if mode == "ongoing":
+        return "3fb950"
+    pct = progress_pct(event, now, mode="upcoming")
+    if pct >= 90:
+        return "d73a49"
+    if pct >= 50:
+        return "58a6ff"
+    return "3fb950"
+
+
+def progress_bar(pct: int, color: str) -> str:
+    clamped = max(0, min(100, pct))
+    return f'<img alt="{clamped}%" src="https://progress-bar.dev/{clamped}/?color={color}&width=140" />'
+
+
+def meta_line(ev: Event) -> str:
+    weekday = fmt_weekday(ev["start"])
+    date = fmt_month_day(ev["start"])
+    if ev["start"] and ev["finish"]:
+        hours = (
+            f"{ev['start'].astimezone(LOCAL_TZ).strftime('%H:%M')}–"
+            f"{ev['finish'].astimezone(LOCAL_TZ).strftime('%H:%M')} WIB"
         )
+    else:
+        hours = fmt_local(ev["start"])
+    parts = [f"{weekday}, {date} · {hours}"]
+    if ev.get("duration"):
+        parts.append(ev["duration"])
+    if ev.get("format"):
+        parts.append(ev["format"])
+    if ev.get("weight_txt"):
+        parts.append(f"Rating {ev['weight_txt']}")
+    return " · ".join(parts)
+
+
+def render_timeline(events: List[Event], now: datetime, mode: str = "upcoming") -> str:
+    """Timeline list: tanggal di kiri, nama + meta + progress bar di kanan."""
+    lines = []
+    for ev in events:
+        name = f"[{ev['name']}]({ev['url']})" if ev["url"] else ev["name"]
+        left = f"{fmt_weekday(ev['start'])} · {fmt_month_day(ev['start'])}"
+        if mode == "ongoing":
+            right = f"🏃 **{name}**  \n{meta_line(ev)}"
+        else:
+            pct = progress_pct(ev, now, mode=mode)
+            color = bar_color(ev, now, mode=mode)
+            right = f"**{name}**  \n{meta_line(ev)}  \n{progress_bar(pct, color)}"
+        lines.append(f"| {left} | {right} |")
     return "\n".join(lines)
 
 
-def render_past_table(events: List[Event]) -> str:
-    lines = [
-        "| Event | Mulai (UTC) | Berakhir (UTC) | Format | Rating |",
-        "|-------|-------------|----------------|--------|--------|",
-    ]
+def render_past_timeline(events: List[Event]) -> str:
+    """Timeline list untuk event yang sudah berakhir (tanpa progress bar)."""
+    lines = []
     for ev in events:
-        link = f"[{ev['name']}]({ev['url']})" if ev["url"] else ev["name"]
-        lines.append(
-            f"| {link} | {fmt_utc(ev['start'])} | {fmt_utc(ev['finish'])} | "
-            f"{ev['format']} | {ev['weight_txt']} |"
-        )
+        name = f"[{ev['name']}]({ev['url']})" if ev["url"] else ev["name"]
+        left = f"{fmt_weekday(ev['start'])} · {fmt_month_day(ev['start'])}"
+        lines.append(f"| ✅ {left} | **{name}**  \n{meta_line(ev)} |")
     return "\n".join(lines)
 
 
@@ -196,37 +254,44 @@ def render_readme(
         if e["start"] and e["finish"] and e["start"] <= now < e["finish"]
     ]
 
-    content = "# 📡 CTF Event Tracker\n\n"
+    content = "# CTF Event Tracker\n\n"
     content += (
+        "Repository ini otomatis mengupdate jadwal CTF dari "
+        "CTFtime setiap 2 jam.\n\n"
+    )
+    content += (
+        f"[CTFtime](https://ctftime.org) · "
+        f"[Repo]({REPO_URL}) · "
         f"[![Workflow Status](https://github.com/{REPO}/actions/workflows/update.yml/badge.svg)]"
         f"({REPO_URL}/actions/workflows/update.yml)\n\n"
     )
     content += (
-        badge("Last Update", f"{now.strftime('%Y-%m-%d %H:%M:%S')} UTC", "brightgreen")
-        + " "
-        + badge("Event 14 Hari", str(len(upcoming)), "blue")
-        + " "
-        + badge("Total Ditrack", str(total_tracked), "orange")
-        + "\n\n"
+        f"`{len(upcoming)} upcoming · {total_tracked} ditrack · "
+        f"update terakhir {now.strftime('%Y-%m-%d %H:%M:%S')} UTC`\n\n"
     )
     content += (
-        "Repository ini otomatis mengupdate jadwal CTF dari "
-        "[CTFtime](https://ctftime.org) setiap 2 jam.\n\n"
+        "[Berlangsung](#berlangsung) · "
+        "[Upcoming](#upcoming-next-14-days) · "
+        "[Sudah Berakhir](#sudah-berakhir-7-hari-terakhir)\n\n"
     )
 
     if ongoing:
-        content += "### 🕐 Sedang Berlangsung\n"
-        content += render_table(ongoing, now) + "\n\n"
+        content += "### Berlangsung\n<details open><summary>Expand / Collapse</summary>\n\n"
+        content += render_timeline(ongoing, now, "ongoing") + "\n</details>\n\n"
 
-    content += "### 🚩 Upcoming Events (Next 14 Days)\n"
+    content += "### Upcoming (Next 14 Days)\n<details open><summary>Expand / Collapse</summary>\n\n"
     if upcoming:
-        content += render_table(upcoming, now) + "\n"
+        content += render_timeline(upcoming, now, "upcoming") + "\n"
     else:
-        content += "| *Tidak ada event ditemukan* | - | - | - | - | - | - | - |\n"
+        content += "Tidak ada event ditemukan.\n"
+    content += "</details>\n\n"
 
     if past_events:
-        content += f"\n### 🏁 Sudah Berakhir ({PAST_DAYS} Hari Terakhir)\n"
-        content += render_past_table(past_events) + "\n"
+        content += (
+            f"### Sudah Berakhir ({PAST_DAYS} Hari Terakhir)\n"
+            "<details><summary>Expand / Collapse</summary>\n\n"
+        )
+        content += render_past_timeline(past_events) + "\n</details>\n\n"
 
     content += (
         f"\n---\n*Last updated: {now.strftime('%Y-%m-%d %H:%M:%S')} UTC — "

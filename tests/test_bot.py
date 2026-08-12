@@ -26,6 +26,135 @@ def make_event(**overrides):
 NOW = datetime(2026, 8, 12, 0, 0, tzinfo=timezone.utc)
 
 
+def test_fmt_date():
+    dt = datetime(2026, 8, 14, 11, 0, tzinfo=timezone.utc)
+    assert bot.fmt_month_day(dt) == "14 Agu"
+    assert bot.fmt_weekday(dt) == "Jumat"
+    assert bot.fmt_month_day(None) == "-"
+    assert bot.fmt_weekday(None) == "-"
+
+
+def test_progress_pct_upcoming_imminence():
+    ev = bot.parse_event(make_event(start=(NOW + timedelta(days=bot.DAYS_AHEAD)).isoformat()))
+    assert bot.progress_pct(ev, NOW, mode="upcoming") == 0
+    ev_mid = bot.parse_event(make_event(start=(NOW + timedelta(days=bot.DAYS_AHEAD / 2)).isoformat()))
+    assert bot.progress_pct(ev_mid, NOW, mode="upcoming") == 50
+
+
+def test_progress_pct_ongoing_elapsed():
+    ev = bot.parse_event(
+        make_event(
+            start=(NOW - timedelta(hours=3)).isoformat(),
+            finish=(NOW + timedelta(hours=3)).isoformat(),
+        )
+    )
+    assert bot.progress_pct(ev, NOW, mode="ongoing") == 50
+    ev_start = bot.parse_event(
+        make_event(
+            start=NOW.isoformat(),
+            finish=(NOW + timedelta(hours=6)).isoformat(),
+        )
+    )
+    assert bot.progress_pct(ev_start, NOW, mode="ongoing") == 0
+
+
+def test_progress_pct_ongoing_finished_clamped():
+    ev = bot.parse_event(
+        make_event(
+            start=(NOW - timedelta(hours=6)).isoformat(),
+            finish=(NOW - timedelta(hours=1)).isoformat(),
+        )
+    )
+    assert bot.progress_pct(ev, NOW, mode="ongoing") == 100
+
+
+def test_bar_color():
+    soon = bot.parse_event(make_event(start=(NOW + timedelta(hours=2)).isoformat()))
+    assert bot.bar_color(soon, NOW, mode="upcoming") == "d73a49"
+    far = bot.parse_event(make_event(start=(NOW + timedelta(days=5)).isoformat()))
+    assert bot.bar_color(far, NOW, mode="upcoming") == "58a6ff"
+    running = bot.parse_event(
+        make_event(
+            start=(NOW - timedelta(hours=1)).isoformat(),
+            finish=(NOW + timedelta(hours=2)).isoformat(),
+        )
+    )
+    assert bot.bar_color(running, NOW, mode="ongoing") == "3fb950"
+
+
+def test_progress_bar():
+    img50 = '<img alt="50%" src="https://progress-bar.dev/50/?color=58a6ff&width=140" />'
+    img100 = '<img alt="100%" src="https://progress-bar.dev/100/?color=3fb950&width=140" />'
+    img0 = '<img alt="0%" src="https://progress-bar.dev/0/?color=3fb950&width=140" />'
+    img100_red = '<img alt="100%" src="https://progress-bar.dev/100/?color=d73a49&width=140" />'
+    assert bot.progress_bar(50, "58a6ff") == img50
+    assert bot.progress_bar(100, "3fb950") == img100
+    assert bot.progress_bar(-5, "3fb950") == img0
+    assert bot.progress_bar(150, "d73a49") == img100_red
+
+
+def test_meta_line():
+    ev = bot.parse_event(
+        make_event(
+            id=1,
+            name="Test CTF",
+            start="2026-08-14T11:00:00+00:00",
+            finish="2026-08-14T20:00:00+00:00",
+            duration={"days": 0, "hours": 9},
+            format="Jeopardy",
+            weight=33.891,
+        )
+    )
+    assert bot.meta_line(ev) == "Jumat, 14 Agu · 18:00–03:00 WIB · 9h · Jeopardy · Rating 33.89"
+
+
+def test_render_timeline_upcoming():
+    ev = bot.parse_event(
+        make_event(
+            id=1,
+            name="Test CTF",
+            url="https://ctftime.org/event/1",
+            start="2026-08-14T11:00:00+00:00",
+            finish="2026-08-14T20:00:00+00:00",
+        )
+    )
+    line = bot.render_timeline([ev], NOW, mode="upcoming")
+    assert "| Jumat · 14 Agu |" in line
+    assert "[Test CTF](https://ctftime.org/event/1)" in line
+    assert 'progress-bar.dev' in line
+    assert 'color=58a6ff' in line
+
+
+def test_render_timeline_ongoing_no_bar():
+    ev = bot.parse_event(
+        make_event(
+            id=1,
+            name="Test CTF",
+            start="2026-08-12T00:00:00+00:00",
+            finish="2026-08-12T09:00:00+00:00",
+        )
+    )
+    line = bot.render_timeline([ev], NOW, mode="ongoing")
+    assert "progress-bar.dev" not in line
+    assert "🏃" in line
+
+
+def test_render_past_timeline():
+    ev = bot.parse_event(
+        make_event(
+            id=1,
+            name="Test CTF",
+            start="2026-08-08T09:00:00+00:00",
+            finish="2026-08-08T18:00:00+00:00",
+            format="Jeopardy",
+        )
+    )
+    line = bot.render_past_timeline([ev])
+    assert "✅" in line
+    assert "progress-bar.dev" not in line
+    assert "Jeopardy" in line
+
+
 def test_parse_event_basic():
     e = bot.parse_event(make_event())
     assert e["name"] == "Test CTF"
@@ -74,14 +203,18 @@ def test_time_left_started():
 def test_render_upcoming_columns():
     events = [bot.parse_event(make_event())]
     content = bot.render_readme(events, [], 5, now=NOW)
-    assert "Upcoming Events" in content
-    assert "https://ctftime.org/event/1" in content
-    assert "Berakhir (UTC)" in content
-    assert "2026-08-14 20:00" in content  # kolom Berakhir (UTC)
-    assert "2026-08-14 18:00" in content  # kolom lokal = UTC+7
-    assert "Mulai (Asia/Jakarta)" in content
-    assert "Total Ditrack" in content
+    assert "# CTF Event Tracker" in content
     assert "Workflow Status" in content
+    assert "https://ctftime.org/event/1" in content
+    assert "14 Agu" in content
+    assert "Jumat" in content
+    assert "18:00–03:00 WIB" in content
+    assert "Rating Belum ada" in content
+    assert "color=58a6ff" in content
+    assert "1 upcoming · 5 ditrack" in content
+    assert "### Upcoming (Next 14 Days)" in content
+    assert "#upcoming-next-14-days" in content
+    assert "<details" in content
 
 
 def test_render_empty_events():
@@ -99,12 +232,13 @@ def test_render_past_section():
     )
     content = bot.render_readme([], [past], 1, now=NOW)
     assert "Sudah Berakhir" in content
-    assert "2026-08-08" in content
+    assert "8 Agu" in content
+    assert "<details>" in content
 
 
 def test_render_no_past_section_when_empty():
     content = bot.render_readme([], [], 1, now=NOW)
-    assert "Sudah Berakhir" not in content
+    assert "### Sudah Berakhir" not in content
 
 
 def test_archive_merge_by_id(tmp_path):

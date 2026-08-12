@@ -8,7 +8,6 @@ dist/
 venv/
 env/
 
-# Lingkungan & secret — JANGAN PERNAH DI-PUSH
 .env
 .env.*
 !.env.example
@@ -31,8 +30,8 @@ htmlcov/
 # Log
 *.log
 
-# Dokumentasi lokal — JANGAN DI-PUSH
 DEVELOPMENT.md
+docs/ 
 
 # IDE & editor
 .idea/
