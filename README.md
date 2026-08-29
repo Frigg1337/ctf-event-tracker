@@ -6,7 +6,7 @@ Repository ini otomatis mengupdate jadwal CTF dari CTFtime setiap 2 jam.
 
 [![Workflow Status](https://github.com/Frigg1337/ctf-event-tracker/actions/workflows/update.yml/badge.svg)](https://github.com/Frigg1337/ctf-event-tracker/actions/workflows/update.yml) [![Last Commit](https://img.shields.io/github/last-commit/Frigg1337/ctf-event-tracker)](https://github.com/Frigg1337/ctf-event-tracker/commits) [![License](https://img.shields.io/github/license/Frigg1337/ctf-event-tracker)](LICENSE) [![CTFtime Bot](https://img.shields.io/badge/bot-CTFtime%20v3.0-58a6ff)](https://ctftime.org)
 
-`8 upcoming · 32 ditrack · update terakhir 2026-08-29 02:43:46 UTC`
+`7 upcoming · 32 ditrack · update terakhir 2026-08-29 10:50:40 UTC`
 
 </div>
 
@@ -17,14 +17,13 @@ Repository ini otomatis mengupdate jadwal CTF dari CTFtime setiap 2 jam.
 
 | Jadwal | Event |
 |--------|-------|
-| Sabtu · 29 Agu | **[BlackHat MEA CTF Qualification 2026](https://blackhatmea.com/capture-the-flag)**<br>Sabtu, 29 Agu · 14:00–14:00 WIB · 1d 0h · Jeopardy · Rating 8.10<br>████████████████████ 98% |
-| Sabtu · 29 Agu | **[ASIS CTF Quals 2026](https://asisctf.com/)**<br>Sabtu, 29 Agu · 21:00–21:00 WIB · 1d 0h · Jeopardy · Rating 90.53<br>███████████████████░ 96% |
-| Sabtu · 29 Agu | **[UND CyberHawks National CTF Competition 2026 Qualifiers](https://ctf.hackthebox.com/event/details/und-cyberhawks-national-ctf-competition-2026-qualifiers-3444)**<br>Sabtu, 29 Agu · 21:00–12:00 WIB · 15h · Jeopardy · Rating Belum ada<br>███████████████████░ 96% |
-| Sabtu · 29 Agu | **[Iran Tech Olympics CTF 2026](https://ctf.olympics.tech/)**<br>Sabtu, 29 Agu · 21:00–21:00 WIB · 1d 0h · Jeopardy · Rating 25.00<br>███████████████████░ 96% |
-| Sabtu · 29 Agu | **[DiceCTF 2026 Finals](https://ctf.dicega.ng/)**<br>Sabtu, 29 Agu · 23:00–05:00 WIB · 1d 6h · Hack quest · Rating Belum ada<br>███████████████████░ 96% |
-| Jumat · 4 Sep | **[NNS CTF 2026](https://nnsc.tf/)**<br>Jumat, 4 Sep · 23:00–23:00 WIB · 2d 0h · Jeopardy · Rating 25.00<br>███████████░░░░░░░░░ 53% |
-| Sabtu · 5 Sep | **[TFC CTF 2026](https://ctf.thefewchosen.com/)**<br>Sabtu, 5 Sep · 17:00–17:00 WIB · 1d 0h · Jeopardy · Rating 77.08<br>█████████░░░░░░░░░░░ 47% |
-| Minggu · 6 Sep | **[SUNCTF 2026](https://www.sunwaycybersecurityclub.org/sunctf)**<br>Minggu, 6 Sep · 07:00–16:00 WIB · 9h · Jeopardy · Rating Belum ada<br>█████████░░░░░░░░░░░ 43% |
+| Sabtu · 29 Agu | **[ASIS CTF Quals 2026](https://asisctf.com/)**<br>Sabtu, 29 Agu · 21:00–21:00 WIB · 1d 0h · Jeopardy · Rating 90.53<br>████████████████████ 99% |
+| Sabtu · 29 Agu | **[UND CyberHawks National CTF Competition 2026 Qualifiers](https://ctf.hackthebox.com/event/details/und-cyberhawks-national-ctf-competition-2026-qualifiers-3444)**<br>Sabtu, 29 Agu · 21:00–12:00 WIB · 15h · Jeopardy · Rating Belum ada<br>████████████████████ 99% |
+| Sabtu · 29 Agu | **[Iran Tech Olympics CTF 2026](https://ctf.olympics.tech/)**<br>Sabtu, 29 Agu · 21:00–21:00 WIB · 1d 0h · Jeopardy · Rating 25.00<br>████████████████████ 99% |
+| Sabtu · 29 Agu | **[DiceCTF 2026 Finals](https://ctf.dicega.ng/)**<br>Sabtu, 29 Agu · 23:00–05:00 WIB · 1d 6h · Hack quest · Rating Belum ada<br>████████████████████ 98% |
+| Jumat · 4 Sep | **[NNS CTF 2026](https://nnsc.tf/)**<br>Jumat, 4 Sep · 23:00–23:00 WIB · 2d 0h · Jeopardy · Rating 25.00<br>███████████░░░░░░░░░ 55% |
+| Sabtu · 5 Sep | **[TFC CTF 2026](https://ctf.thefewchosen.com/)**<br>Sabtu, 5 Sep · 17:00–17:00 WIB · 1d 0h · Jeopardy · Rating 77.08<br>██████████░░░░░░░░░░ 50% |
+| Minggu · 6 Sep | **[SUNCTF 2026](https://www.sunwaycybersecurityclub.org/sunctf)**<br>Minggu, 6 Sep · 07:00–16:00 WIB · 9h · Jeopardy · Rating Belum ada<br>█████████░░░░░░░░░░░ 46% |
 </details>
 
 ### Sudah Berakhir (7 Hari Terakhir)
@@ -32,12 +31,9 @@ Repository ini otomatis mengupdate jadwal CTF dari CTFtime setiap 2 jam.
 
 | Jadwal | Event |
 |--------|-------|
-| ✅ Sabtu · 22 Agu | **[$N1PH€RS 3.0 CTF](https://stjctf2026.tamilctf.com/)**<br>Sabtu, 22 Agu · 10:15–18:15 WIB · 8h · Jeopardy · Rating Belum ada |
-| ✅ Sabtu · 22 Agu | **[E0F CTF](https://ctf.e0f.team/)**<br>Sabtu, 22 Agu · 14:00–14:00 WIB · 1d 0h · Jeopardy · Rating Belum ada |
-| ✅ Sabtu · 22 Agu | **[TallDwarf Hosting: Hosting Takeover](https://ctf.talldwarfhosting.com/)**<br>Sabtu, 22 Agu · 15:00–03:00 WIB · 1d 12h · Jeopardy · Rating Belum ada |
 | ✅ Minggu · 23 Agu | **[PECAN+ CTF 2026](https://pecanplus.org/)**<br>Minggu, 23 Agu · 08:00–12:00 WIB · 4h · Jeopardy · Rating Belum ada |
 </details>
 
 
 ---
-*Last updated: 2026-08-29 02:43:46 UTC — dihasilkan otomatis oleh [ctf-event-tracker](https://github.com/Frigg1337/ctf-event-tracker)*
+*Last updated: 2026-08-29 10:50:40 UTC — dihasilkan otomatis oleh [ctf-event-tracker](https://github.com/Frigg1337/ctf-event-tracker)*
