@@ -37,6 +37,14 @@ USER_AGENT = "CTF-Tracker-Bot/3.0 (+https://github.com/Frigg1337/ctf-event-track
 REPO = "Frigg1337/ctf-event-tracker"
 REPO_URL = f"https://github.com/{REPO}"
 
+TITLE_SVG = (
+    "[![Typing SVG](https://readme-typing-svg.demolab.com?"
+    "font=Rubik+Glitch&size=32&duration=3500&pause=1000"
+    "&color=67A2F7&background=A3FF6300&center=true&vCenter=true"
+    "&width=435&lines=CTF+Event+Tracker)]"
+    "(https://git.io/typing-svg)"
+)
+
 BADGES: str = (
     "[![Workflow Status](https://github.com/"
     f"{REPO}/actions/workflows/update.yml/badge.svg)]"
@@ -134,19 +142,6 @@ def get_past_ctfs() -> List[Event]:
     return [e for e in (result or []) if e["finish"] and e["finish"] <= now]
 
 
-def describe_time_left(now: datetime, start_dt: Optional[datetime]) -> str:
-    if not start_dt:
-        return "-"
-    seconds = int((start_dt - now).total_seconds())
-    if seconds <= 0:
-        return "Dimulai"
-    days = seconds // 86400
-    hours = (seconds % 86400) // 3600
-    if days > 0:
-        return f"{days} hari {hours} jam" if hours else f"{days} hari"
-    return f"{hours} jam" if hours else "Sebentar lagi"
-
-
 def fmt_utc(dt: Optional[datetime]) -> str:
     return dt.strftime("%Y-%m-%d %H:%M") if dt else "-"
 
@@ -205,6 +200,58 @@ def progress_bar(pct: int, color: str) -> str:
     return f"{'█' * filled}{'░' * (20 - filled)} {clamped}%"
 
 
+def rating_badge(weight_txt: str) -> str:
+    if weight_txt == "Belum ada" or not weight_txt:
+        return "![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey)"
+    try:
+        val = float(weight_txt)
+    except ValueError:
+        return f"![Rating](https://img.shields.io/badge/Rating-{weight_txt}-lightgrey)"
+    if val >= 70:
+        color = "brightgreen"
+    elif val >= 50:
+        color = "green"
+    elif val >= 30:
+        color = "yellow"
+    elif val >= 10:
+        color = "orange"
+    else:
+        color = "red"
+    return f"![Rating](https://img.shields.io/badge/Rating-{weight_txt}-{color})"
+
+
+def status_badge(event: Event, now: datetime, mode: str) -> str:
+    if mode == "ongoing":
+        return "![Status](https://img.shields.io/badge/Berlangsung-3fb950)"
+    if mode == "past":
+        return "![Status](https://img.shields.io/badge/Selesai-8b949e)"
+    start = event.get("start")
+    if not start:
+        return "![Status](https://img.shields.io/badge/Tidak_diketahui-8b949e)"
+    days = (start.date() - now.date()).days
+    if days == 0:
+        return "![Status](https://img.shields.io/badge/Hari_ini-d73a49)"
+    if days == 1:
+        return "![Status](https://img.shields.io/badge/Besok-58a6ff)"
+    return f"![Status](https://img.shields.io/badge/Dalam_{days}_hari-58a6ff)"
+
+
+def describe_time_left(now: datetime, start_dt: Optional[datetime]) -> str:
+    if not start_dt:
+        return "-"
+    seconds = int((start_dt - now).total_seconds())
+    if seconds <= 0:
+        return "Berlangsung"
+    days = seconds // 86400
+    hours = (seconds % 86400) // 3600
+    minutes = (seconds % 3600) // 60
+    if days > 0:
+        return f"{days}hari {hours}jam" if hours else f"{days}hari"
+    if hours > 0:
+        return f"{hours}jam {minutes}menit" if minutes else f"{hours}jam"
+    return f"{minutes}menit" if minutes else "Sebentar lagi"
+
+
 def meta_line(ev: Event) -> str:
     weekday = fmt_weekday(ev["start"])
     date = fmt_month_day(ev["start"])
@@ -220,35 +267,69 @@ def meta_line(ev: Event) -> str:
         parts.append(ev["duration"])
     if ev.get("format"):
         parts.append(ev["format"])
-    if ev.get("weight_txt"):
-        parts.append(f"Rating {ev['weight_txt']}")
     return " · ".join(parts)
 
 
+def _event_sort_key(ev: Event) -> tuple:
+    start = ev.get("start")
+    if not start:
+        return (datetime.min.replace(tzinfo=timezone.utc), "")
+    return (start, ev.get("name", ""))
+
+
 def render_timeline(events: List[Event], now: datetime, mode: str = "upcoming") -> str:
-    """Timeline list: tanggal di kiri, nama + meta + progress bar di kanan."""
-    lines = ["| Jadwal | Event |", "|--------|-------|"]
+    """Render event table with Jadwal, Event, Status, and Rating columns."""
+    if not events:
+        return "Tidak ada event ditemukan."
+
+    lines = ["| Jadwal | Event | Status | Rating |", "|--------|-------|--------|--------|"]
     for ev in events:
         name = f"[{ev['name']}]({ev['url']})" if ev["url"] else ev["name"]
         left = f"{fmt_weekday(ev['start'])} · {fmt_month_day(ev['start'])}"
-        if mode == "ongoing":
-            right = f"🏃 **{name}**<br>{meta_line(ev)}"
-        else:
+
+        event_parts = [f"**{name}**", meta_line(ev)]
+        if mode != "ongoing":
             pct = progress_pct(ev, now, mode=mode)
             color = bar_color(ev, now, mode=mode)
-            right = f"**{name}**<br>{meta_line(ev)}<br>{progress_bar(pct, color)}"
-        lines.append(f"| {left} | {right} |")
+            event_parts.append(progress_bar(pct, color))
+        right = "<br>".join(event_parts)
+
+        st = status_badge(ev, now, mode)
+        rt = rating_badge(ev.get("weight_txt", "Belum ada"))
+
+        lines.append(f"| {left} | {right} | {st} | {rt} |")
+
     return "\n".join(lines)
 
 
-def render_past_timeline(events: List[Event]) -> str:
-    """Timeline list untuk event yang sudah berakhir (tanpa progress bar)."""
-    lines = ["| Jadwal | Event |", "|--------|-------|"]
+def render_timeline_grouped(events: List[Event], now: datetime, mode: str = "upcoming") -> str:
+    """Render events grouped by format with total count."""
+    if not events:
+        return "Tidak ada event ditemukan."
+
+    format_counts: Dict[str, int] = {}
     for ev in events:
-        name = f"[{ev['name']}]({ev['url']})" if ev["url"] else ev["name"]
-        left = f"{fmt_weekday(ev['start'])} · {fmt_month_day(ev['start'])}"
-        lines.append(f"| ✅ {left} | **{name}**<br>{meta_line(ev)} |")
-    return "\n".join(lines)
+        fmt = ev.get("format") or "Other"
+        format_counts[fmt] = format_counts.get(fmt, 0) + 1
+
+    summary_parts = [f"{fmt}: {count}" for fmt, count in sorted(format_counts.items())]
+    content = f"**Format:** {' · '.join(summary_parts)}\n\n"
+
+    format_events: Dict[str, List[Event]] = {}
+    for ev in events:
+        fmt = ev.get("format") or "Other"
+        format_events.setdefault(fmt, []).append(ev)
+
+    sorted_formats = sorted(
+        format_events.keys(),
+        key=lambda f: _event_sort_key(format_events[f][0]),
+    )
+    for fmt in sorted_formats:
+        fmt_list = sorted(format_events[fmt], key=_event_sort_key)
+        content += f"**{fmt}**\n\n"
+        content += render_timeline(fmt_list, now, mode) + "\n\n"
+
+    return content.rstrip()
 
 
 def render_readme(
@@ -268,7 +349,8 @@ def render_readme(
 
     content = (
         '<div align="center">\n\n'
-        "# CTF Event Tracker\n\n"
+        + TITLE_SVG
+        + "\n\n"
         "Repository ini otomatis mengupdate jadwal CTF dari "
         "CTFtime setiap 2 jam.\n\n"
         + BADGES
@@ -278,9 +360,9 @@ def render_readme(
         "</div>\n\n"
     )
     content += (
-        "[🟢 Berlangsung](#berlangsung) · "
-        "[📅 Upcoming](#upcoming-next-14-days) · "
-        "[✅ Sudah Berakhir](#sudah-berakhir-7-hari-terakhir)\n\n"
+        "[Berlangsung](#berlangsung) · "
+        "[Upcoming](#upcoming-next-14-days) · "
+        "[Sudah Berakhir](#sudah-berakhir-7-hari-terakhir)\n\n"
     )
 
     if ongoing:
@@ -289,7 +371,7 @@ def render_readme(
 
     content += "### Upcoming (Next 14 Days)\n<details open><summary>Expand / Collapse</summary>\n\n"
     if upcoming:
-        content += render_timeline(upcoming, now, "upcoming") + "\n"
+        content += render_timeline_grouped(upcoming, now, "upcoming") + "\n"
     else:
         content += "Tidak ada event ditemukan.\n"
     content += "</details>\n\n"
@@ -299,7 +381,7 @@ def render_readme(
             f"### Sudah Berakhir ({PAST_DAYS} Hari Terakhir)\n"
             "<details><summary>Expand / Collapse</summary>\n\n"
         )
-        content += render_past_timeline(past_events) + "\n</details>\n\n"
+        content += render_timeline(past_events, now, "past") + "\n</details>\n\n"
 
     content += (
         f"\n---\n*Last updated: {now.strftime('%Y-%m-%d %H:%M:%S')} UTC — "
