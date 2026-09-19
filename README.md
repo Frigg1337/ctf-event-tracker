@@ -6,7 +6,7 @@ Repository ini otomatis mengupdate jadwal CTF dari CTFtime setiap 2 jam.
 
 [![Workflow Status](https://github.com/Frigg1337/ctf-event-tracker/actions/workflows/update.yml/badge.svg)](https://github.com/Frigg1337/ctf-event-tracker/actions/workflows/update.yml) [![Last Commit](https://img.shields.io/github/last-commit/Frigg1337/ctf-event-tracker)](https://github.com/Frigg1337/ctf-event-tracker/commits) [![License](https://img.shields.io/github/license/Frigg1337/ctf-event-tracker)](LICENSE) [![CTFtime Bot](https://img.shields.io/badge/bot-CTFtime%20v3.0-58a6ff)](https://ctftime.org)
 
-`8 upcoming · 52 ditrack · update terakhir 2026-09-19 20:07:45 UTC`
+`9 upcoming · 53 ditrack · update terakhir 2026-09-19 23:55:04 UTC`
 
 </div>
 
@@ -15,25 +15,26 @@ Repository ini otomatis mengupdate jadwal CTF dari CTFtime setiap 2 jam.
 ### Upcoming (Next 14 Days)
 <details open><summary>Expand / Collapse</summary>
 
-**Format:** Attack-Defense: 1 · Jeopardy: 7
+**Format:** Attack-Defense: 2 · Jeopardy: 7
 
 **Jeopardy**
 
 | Jadwal | Event | Status | Rating |
 |--------|-------|--------|--------|
-| Minggu · 20 Sep | **[LUN4R CTF Quals](https://lunar.rootriet.in/)**<br>Minggu, 20 Sep · 11:30–23:30 WIB · 12h · Jeopardy<br>███████████████████░ 97% | ![Status](https://img.shields.io/badge/Besok-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
-| Jumat · 25 Sep | **[FlightPath2026](http://setyourvector.org/)**<br>Jumat, 25 Sep · 20:30–04:00 WIB · 2d 7h · Jeopardy<br>████████████░░░░░░░░ 59% | ![Status](https://img.shields.io/badge/Dalam_6_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
-| Jumat · 25 Sep | **[BCS CTF 2026](https://ctf.bcsictfest.com/)**<br>Jumat, 25 Sep · 21:00–21:00 WIB · 2d 0h · Jeopardy<br>████████████░░░░░░░░ 58% | ![Status](https://img.shields.io/badge/Dalam_6_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
-| Sabtu · 26 Sep | **[H7CTF 2026 Quals](https://2026.h7tex.com/)**<br>Sabtu, 26 Sep · 10:30–22:30 WIB · 1d 12h · Jeopardy<br>███████████░░░░░░░░░ 54% | ![Status](https://img.shields.io/badge/Dalam_7_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-27.49-orange) |
-| Sabtu · 26 Sep | **[SunshineCTF 2026](https://sunshinectf.org/)**<br>Sabtu, 26 Sep · 21:00–21:00 WIB · 2d 0h · Jeopardy<br>██████████░░░░░░░░░░ 51% | ![Status](https://img.shields.io/badge/Dalam_7_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-51.63-green) |
-| Senin · 28 Sep | **[SCAN 2026 Final](https://scan.sx/)**<br>Senin, 28 Sep · 08:00–15:00 WIB · 7h · Jeopardy<br>████████░░░░░░░░░░░░ 41% | ![Status](https://img.shields.io/badge/Dalam_9_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
-| Rabu · 30 Sep | **[CSS CTF 2026: Return of Nexus](https://ctf.cybersecurity.sydney/)**<br>Rabu, 30 Sep · 13:00–05:00 WIB · 1d 16h · Jeopardy<br>█████░░░░░░░░░░░░░░░ 25% | ![Status](https://img.shields.io/badge/Dalam_11_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Minggu · 20 Sep | **[LUN4R CTF Quals](https://lunar.rootriet.in/)**<br>Minggu, 20 Sep · 11:30–23:30 WIB · 12h · Jeopardy<br>████████████████████ 98% | ![Status](https://img.shields.io/badge/Besok-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Jumat · 25 Sep | **[FlightPath2026](http://setyourvector.org/)**<br>Jumat, 25 Sep · 20:30–04:00 WIB · 2d 7h · Jeopardy<br>████████████░░░░░░░░ 60% | ![Status](https://img.shields.io/badge/Dalam_6_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Jumat · 25 Sep | **[BCS CTF 2026](https://ctf.bcsictfest.com/)**<br>Jumat, 25 Sep · 21:00–21:00 WIB · 2d 0h · Jeopardy<br>████████████░░░░░░░░ 60% | ![Status](https://img.shields.io/badge/Dalam_6_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Sabtu · 26 Sep | **[H7CTF 2026 Quals](https://2026.h7tex.com/)**<br>Sabtu, 26 Sep · 10:30–22:30 WIB · 1d 12h · Jeopardy<br>███████████░░░░░░░░░ 56% | ![Status](https://img.shields.io/badge/Dalam_7_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-27.49-orange) |
+| Sabtu · 26 Sep | **[SunshineCTF 2026](https://sunshinectf.org/)**<br>Sabtu, 26 Sep · 21:00–21:00 WIB · 2d 0h · Jeopardy<br>██████████░░░░░░░░░░ 52% | ![Status](https://img.shields.io/badge/Dalam_7_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-51.63-green) |
+| Senin · 28 Sep | **[SCAN 2026 Final](https://scan.sx/)**<br>Senin, 28 Sep · 08:00–15:00 WIB · 7h · Jeopardy<br>████████░░░░░░░░░░░░ 42% | ![Status](https://img.shields.io/badge/Dalam_9_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Rabu · 30 Sep | **[CSS CTF 2026: Return of Nexus](https://ctf.cybersecurity.sydney/)**<br>Rabu, 30 Sep · 13:00–05:00 WIB · 1d 16h · Jeopardy<br>█████░░░░░░░░░░░░░░░ 26% | ![Status](https://img.shields.io/badge/Dalam_11_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
 
 **Attack-Defense**
 
 | Jadwal | Event | Status | Rating |
 |--------|-------|--------|--------|
-| Sabtu · 26 Sep | **[FAUST CTF 2026](https://2026.faustctf.net/)**<br>Sabtu, 26 Sep · 19:00–04:00 WIB · 9h · Attack-Defense<br>██████████░░░░░░░░░░ 52% | ![Status](https://img.shields.io/badge/Dalam_7_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-72.29-brightgreen) |
+| Sabtu · 26 Sep | **[FAUST CTF 2026](https://2026.faustctf.net/)**<br>Sabtu, 26 Sep · 19:00–04:00 WIB · 9h · Attack-Defense<br>███████████░░░░░░░░░ 53% | ![Status](https://img.shields.io/badge/Dalam_7_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-72.29-brightgreen) |
+| Sabtu · 3 Okt | **[CubeCTF 2026](https://cubectf.com/)**<br>Sabtu, 3 Okt · 21:00–05:00 WIB · 8h · Attack-Defense<br>░░░░░░░░░░░░░░░░░░░░ 2% | ![Status](https://img.shields.io/badge/Dalam_14_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-24.71-orange) |
 </details>
 
 ### Sudah Berakhir (7 Hari Terakhir)
@@ -50,4 +51,4 @@ Repository ini otomatis mengupdate jadwal CTF dari CTFtime setiap 2 jam.
 
 
 ---
-*Last updated: 2026-09-19 20:07:45 UTC — dihasilkan otomatis oleh [ctf-event-tracker](https://github.com/Frigg1337/ctf-event-tracker)*
+*Last updated: 2026-09-19 23:55:04 UTC — dihasilkan otomatis oleh [ctf-event-tracker](https://github.com/Frigg1337/ctf-event-tracker)*
