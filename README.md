@@ -6,7 +6,7 @@ Repository ini otomatis mengupdate jadwal CTF dari CTFtime setiap 2 jam.
 
 [![Workflow Status](https://github.com/Frigg1337/ctf-event-tracker/actions/workflows/update.yml/badge.svg)](https://github.com/Frigg1337/ctf-event-tracker/actions/workflows/update.yml) [![Last Commit](https://img.shields.io/github/last-commit/Frigg1337/ctf-event-tracker)](https://github.com/Frigg1337/ctf-event-tracker/commits) [![License](https://img.shields.io/github/license/Frigg1337/ctf-event-tracker)](LICENSE) [![CTFtime Bot](https://img.shields.io/badge/bot-CTFtime%20v3.0-58a6ff)](https://ctftime.org)
 
-`12 upcoming · 108 ditrack · update terakhir 2026-11-10 22:54:03 UTC`
+`12 upcoming · 108 ditrack · update terakhir 2026-11-11 04:56:37 UTC`
 
 </div>
 
@@ -21,18 +21,18 @@ Repository ini otomatis mengupdate jadwal CTF dari CTFtime setiap 2 jam.
 
 | Jadwal | Event | Status | Rating |
 |--------|-------|--------|--------|
-| Kamis · 12 Nov | **[CSAW CTF Final Round 2026](https://ctf.csaw.io/)**<br>Kamis, 12 Nov · 00:00–12:00 WIB · 1d 12h · Jeopardy<br>█████████████████░░░ 87% | ![Status](https://img.shields.io/badge/Dalam_2_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-1.00-red) |
-| Jumat · 13 Nov | **[TVX CTF 2026](https://ctf-techvisions.com/)**<br>Jumat, 13 Nov · 17:00–03:00 WIB · 10h · Jeopardy<br>████████████████░░░░ 82% | ![Status](https://img.shields.io/badge/Dalam_3_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
-| Jumat · 13 Nov | **[Platypwn 2026](https://platypwnies.de/events/platypwn/)**<br>Jumat, 13 Nov · 00:00–18:00 WIB · 18h · Jeopardy<br>████████████████░░░░ 80% | ![Status](https://img.shields.io/badge/Dalam_3_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-37.00-yellow) |
-| Jumat · 13 Nov | **[WolvCTF 2026](https://wolvctf.io/)**<br>Jumat, 13 Nov · 06:00–06:00 WIB · 2d 0h · Jeopardy<br>████████████████░░░░ 78% | ![Status](https://img.shields.io/badge/Dalam_3_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
-| Sabtu · 14 Nov | **[InIt CTF](https://hackersinindia.com/init-ctf)**<br>Sabtu, 14 Nov · 22:30–06:30 WIB · 8h · Jeopardy<br>███████████████░░░░░ 73% | ![Status](https://img.shields.io/badge/Dalam_4_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
-| Sabtu · 14 Nov | **[h4ckc0n 2026](https://h4ckc0n.ctfd.io/)**<br>Sabtu, 14 Nov · 22:30–22:30 WIB · 1d 0h · Jeopardy<br>███████████████░░░░░ 73% | ![Status](https://img.shields.io/badge/Dalam_4_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-24.23-orange) |
-| Jumat · 20 Nov | **[EyesOpenCTF 7th edition](https://eyesopensecurity.com/ctf-briefing.html)**<br>Jumat, 20 Nov · 17:00–17:00 WIB · 2d 0h · Jeopardy<br>██████░░░░░░░░░░░░░░ 32% | ![Status](https://img.shields.io/badge/Dalam_10_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
-| Jumat · 20 Nov | **[GlacierCTF 2026](https://glacierctf.com/)**<br>Jumat, 20 Nov · 01:00–01:00 WIB · 1d 0h · Jeopardy<br>██████░░░░░░░░░░░░░░ 30% | ![Status](https://img.shields.io/badge/Dalam_10_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-73.17-brightgreen) |
-| Jumat · 20 Nov | **[Outback Overflow](http://ctf.hscyber.org/)**<br>Jumat, 20 Nov · 06:00–06:00 WIB · 1d 0h · Jeopardy<br>██████░░░░░░░░░░░░░░ 28% | ![Status](https://img.shields.io/badge/Dalam_10_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
-| Sabtu · 21 Nov | **[Seize da Flaq](https://seizedaflaq.cyberonites.com/)**<br>Sabtu, 21 Nov · 13:30–09:30 WIB · 20h · Jeopardy<br>█████░░░░░░░░░░░░░░░ 26% | ![Status](https://img.shields.io/badge/Dalam_11_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
-| Sabtu · 21 Nov | **[Crate-CTF 2026](https://foi.se/cratectf)**<br>Sabtu, 21 Nov · 20:00–04:00 WIB · 8h · Jeopardy<br>█████░░░░░░░░░░░░░░░ 24% | ![Status](https://img.shields.io/badge/Dalam_11_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-37.00-yellow) |
-| Sabtu · 21 Nov | **[CyberSci Regional Qualifiers 2026-27](https://cybersecuritychallenge.ca/)**<br>Sabtu, 21 Nov · 22:00–05:00 WIB · 7h · Jeopardy<br>█████░░░░░░░░░░░░░░░ 23% | ![Status](https://img.shields.io/badge/Dalam_11_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Kamis · 12 Nov | **[CSAW CTF Final Round 2026](https://ctf.csaw.io/)**<br>Kamis, 12 Nov · 00:00–12:00 WIB · 1d 12h · Jeopardy<br>██████████████████░░ 89% | ![Status](https://img.shields.io/badge/Besok-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-1.00-red) |
+| Jumat · 13 Nov | **[TVX CTF 2026](https://ctf-techvisions.com/)**<br>Jumat, 13 Nov · 17:00–03:00 WIB · 10h · Jeopardy<br>█████████████████░░░ 84% | ![Status](https://img.shields.io/badge/Dalam_2_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Jumat · 13 Nov | **[Platypwn 2026](https://platypwnies.de/events/platypwn/)**<br>Jumat, 13 Nov · 00:00–18:00 WIB · 18h · Jeopardy<br>████████████████░░░░ 82% | ![Status](https://img.shields.io/badge/Dalam_2_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-37.00-yellow) |
+| Jumat · 13 Nov | **[WolvCTF 2026](https://wolvctf.io/)**<br>Jumat, 13 Nov · 06:00–06:00 WIB · 2d 0h · Jeopardy<br>████████████████░░░░ 80% | ![Status](https://img.shields.io/badge/Dalam_2_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Sabtu · 14 Nov | **[InIt CTF](https://hackersinindia.com/init-ctf)**<br>Sabtu, 14 Nov · 22:30–06:30 WIB · 8h · Jeopardy<br>███████████████░░░░░ 75% | ![Status](https://img.shields.io/badge/Dalam_3_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Sabtu · 14 Nov | **[h4ckc0n 2026](https://h4ckc0n.ctfd.io/)**<br>Sabtu, 14 Nov · 22:30–22:30 WIB · 1d 0h · Jeopardy<br>███████████████░░░░░ 75% | ![Status](https://img.shields.io/badge/Dalam_3_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-24.23-orange) |
+| Jumat · 20 Nov | **[EyesOpenCTF 7th edition](https://eyesopensecurity.com/ctf-briefing.html)**<br>Jumat, 20 Nov · 17:00–17:00 WIB · 2d 0h · Jeopardy<br>███████░░░░░░░░░░░░░ 34% | ![Status](https://img.shields.io/badge/Dalam_9_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Jumat · 20 Nov | **[GlacierCTF 2026](https://glacierctf.com/)**<br>Jumat, 20 Nov · 01:00–01:00 WIB · 1d 0h · Jeopardy<br>██████░░░░░░░░░░░░░░ 31% | ![Status](https://img.shields.io/badge/Dalam_9_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-73.17-brightgreen) |
+| Jumat · 20 Nov | **[Outback Overflow](http://ctf.hscyber.org/)**<br>Jumat, 20 Nov · 06:00–06:00 WIB · 1d 0h · Jeopardy<br>██████░░░░░░░░░░░░░░ 30% | ![Status](https://img.shields.io/badge/Dalam_9_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Sabtu · 21 Nov | **[Seize da Flaq](https://seizedaflaq.cyberonites.com/)**<br>Sabtu, 21 Nov · 13:30–09:30 WIB · 20h · Jeopardy<br>██████░░░░░░░░░░░░░░ 28% | ![Status](https://img.shields.io/badge/Dalam_10_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Sabtu · 21 Nov | **[Crate-CTF 2026](https://foi.se/cratectf)**<br>Sabtu, 21 Nov · 20:00–04:00 WIB · 8h · Jeopardy<br>█████░░░░░░░░░░░░░░░ 26% | ![Status](https://img.shields.io/badge/Dalam_10_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-37.00-yellow) |
+| Sabtu · 21 Nov | **[CyberSci Regional Qualifiers 2026-27](https://cybersecuritychallenge.ca/)**<br>Sabtu, 21 Nov · 22:00–05:00 WIB · 7h · Jeopardy<br>█████░░░░░░░░░░░░░░░ 25% | ![Status](https://img.shields.io/badge/Dalam_10_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
 </details>
 
 ### Sudah Berakhir (7 Hari Terakhir)
@@ -50,4 +50,4 @@ Repository ini otomatis mengupdate jadwal CTF dari CTFtime setiap 2 jam.
 
 
 ---
-*Last updated: 2026-11-10 22:54:03 UTC — dihasilkan otomatis oleh [ctf-event-tracker](https://github.com/Frigg1337/ctf-event-tracker)*
+*Last updated: 2026-11-11 04:56:37 UTC — dihasilkan otomatis oleh [ctf-event-tracker](https://github.com/Frigg1337/ctf-event-tracker)*
