@@ -6,7 +6,7 @@ Repository ini otomatis mengupdate jadwal CTF dari CTFtime setiap 2 jam.
 
 [![Workflow Status](https://github.com/Frigg1337/ctf-event-tracker/actions/workflows/update.yml/badge.svg)](https://github.com/Frigg1337/ctf-event-tracker/actions/workflows/update.yml) [![Last Commit](https://img.shields.io/github/last-commit/Frigg1337/ctf-event-tracker)](https://github.com/Frigg1337/ctf-event-tracker/commits) [![License](https://img.shields.io/github/license/Frigg1337/ctf-event-tracker)](LICENSE) [![CTFtime Bot](https://img.shields.io/badge/bot-CTFtime%20v3.0-58a6ff)](https://ctftime.org)
 
-`13 upcoming · 116 ditrack · update terakhir 2026-11-19 09:56:08 UTC`
+`14 upcoming · 117 ditrack · update terakhir 2026-11-19 18:54:16 UTC`
 
 </div>
 
@@ -15,25 +15,26 @@ Repository ini otomatis mengupdate jadwal CTF dari CTFtime setiap 2 jam.
 ### Upcoming (Next 14 Days)
 <details open><summary>Expand / Collapse</summary>
 
-**Format:** Jeopardy: 13
+**Format:** Jeopardy: 14
 
 **Jeopardy**
 
 | Jadwal | Event | Status | Rating |
 |--------|-------|--------|--------|
-| Jumat · 20 Nov | **[EyesOpenCTF 7th edition](https://eyesopensecurity.com/ctf-briefing.html)**<br>Jumat, 20 Nov · 17:00–17:00 WIB · 2d 0h · Jeopardy<br>██████████████████░░ 92% | ![Status](https://img.shields.io/badge/Besok-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
-| Jumat · 20 Nov | **[GlacierCTF 2026](https://glacierctf.com/)**<br>Jumat, 20 Nov · 01:00–01:00 WIB · 1d 0h · Jeopardy<br>██████████████████░░ 90% | ![Status](https://img.shields.io/badge/Besok-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-73.17-brightgreen) |
-| Jumat · 20 Nov | **[Outback Overflow](http://ctf.hscyber.org/)**<br>Jumat, 20 Nov · 06:00–06:00 WIB · 1d 0h · Jeopardy<br>██████████████████░░ 88% | ![Status](https://img.shields.io/badge/Besok-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
-| Jumat · 20 Nov | **[WolvCTF 2026](https://wolvctf.io/)**<br>Jumat, 20 Nov · 06:00–06:00 WIB · 2d 0h · Jeopardy<br>██████████████████░░ 88% | ![Status](https://img.shields.io/badge/Besok-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
-| Sabtu · 21 Nov | **[Seize da Flaq](https://seizedaflaq.cyberonites.com/)**<br>Sabtu, 21 Nov · 13:30–09:30 WIB · 20h · Jeopardy<br>█████████████████░░░ 86% | ![Status](https://img.shields.io/badge/Dalam_2_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
-| Sabtu · 21 Nov | **[Crate-CTF 2026](https://foi.se/cratectf)**<br>Sabtu, 21 Nov · 20:00–04:00 WIB · 8h · Jeopardy<br>█████████████████░░░ 84% | ![Status](https://img.shields.io/badge/Dalam_2_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-37.00-yellow) |
-| Sabtu · 21 Nov | **[CyberSci Regional Qualifiers 2026-27](https://cybersecuritychallenge.ca/)**<br>Sabtu, 21 Nov · 22:00–05:00 WIB · 7h · Jeopardy<br>█████████████████░░░ 84% | ![Status](https://img.shields.io/badge/Dalam_2_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
-| Jumat · 27 Nov | **[RedReaper CTF](https://qualification.redx.site/)**<br>Jumat, 27 Nov · 18:00–02:00 WIB · 8h · Jeopardy<br>████████░░░░░░░░░░░░ 42% | ![Status](https://img.shields.io/badge/Dalam_8_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
-| Jumat · 27 Nov | **[N0v4CTF 2026](https://n0v4ctf.devs.surf/)**<br>Jumat, 27 Nov · 00:00–00:00 WIB · 1d 0h · Jeopardy<br>████████░░░░░░░░░░░░ 40% | ![Status](https://img.shields.io/badge/Dalam_8_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
-| Jumat · 27 Nov | **[LakeCTF Quals 26-27](https://lakectf.epfl.ch/)**<br>Jumat, 27 Nov · 01:00–01:00 WIB · 1d 0h · Jeopardy<br>████████░░░░░░░░░░░░ 40% | ![Status](https://img.shields.io/badge/Dalam_8_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-45.76-yellow) |
-| Sabtu · 28 Nov | **[L3m0n CTF 2026 (Quals)](https://l3m0nctf.xyz/)**<br>Sabtu, 28 Nov · 11:30–23:30 WIB · 12h · Jeopardy<br>███████░░░░░░░░░░░░░ 37% | ![Status](https://img.shields.io/badge/Dalam_9_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
-| Sabtu · 28 Nov | **[CyberNSK2027-Qualifier](https://quals.sslctf.ru/)**<br>Sabtu, 28 Nov · 16:00–04:00 WIB · 12h · Jeopardy<br>███████░░░░░░░░░░░░░ 35% | ![Status](https://img.shields.io/badge/Dalam_9_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
-| Sabtu · 28 Nov | **[Black Hat India 2026 Official CTF](https://ctf.blackhat-india.com/)**<br>Sabtu, 28 Nov · 21:00–21:00 WIB · 1d 0h · Jeopardy<br>███████░░░░░░░░░░░░░ 34% | ![Status](https://img.shields.io/badge/Dalam_9_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Jumat · 20 Nov | **[EyesOpenCTF 7th edition](https://eyesopensecurity.com/ctf-briefing.html)**<br>Jumat, 20 Nov · 17:00–17:00 WIB · 2d 0h · Jeopardy<br>███████████████████░ 95% | ![Status](https://img.shields.io/badge/Besok-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Jumat · 20 Nov | **[GlacierCTF 2026](https://glacierctf.com/)**<br>Jumat, 20 Nov · 01:00–01:00 WIB · 1d 0h · Jeopardy<br>███████████████████░ 93% | ![Status](https://img.shields.io/badge/Besok-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-73.17-brightgreen) |
+| Jumat · 20 Nov | **[Outback Overflow](http://ctf.hscyber.org/)**<br>Jumat, 20 Nov · 06:00–06:00 WIB · 1d 0h · Jeopardy<br>██████████████████░░ 91% | ![Status](https://img.shields.io/badge/Besok-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Jumat · 20 Nov | **[WolvCTF 2026](https://wolvctf.io/)**<br>Jumat, 20 Nov · 06:00–06:00 WIB · 2d 0h · Jeopardy<br>██████████████████░░ 91% | ![Status](https://img.shields.io/badge/Besok-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Sabtu · 21 Nov | **[Seize da Flaq](https://seizedaflaq.cyberonites.com/)**<br>Sabtu, 21 Nov · 13:30–09:30 WIB · 20h · Jeopardy<br>██████████████████░░ 89% | ![Status](https://img.shields.io/badge/Dalam_2_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Sabtu · 21 Nov | **[Crate-CTF 2026](https://foi.se/cratectf)**<br>Sabtu, 21 Nov · 20:00–04:00 WIB · 8h · Jeopardy<br>█████████████████░░░ 87% | ![Status](https://img.shields.io/badge/Dalam_2_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-37.00-yellow) |
+| Sabtu · 21 Nov | **[CyberSci Regional Qualifiers 2026-27](https://cybersecuritychallenge.ca/)**<br>Sabtu, 21 Nov · 22:00–05:00 WIB · 7h · Jeopardy<br>█████████████████░░░ 86% | ![Status](https://img.shields.io/badge/Dalam_2_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Jumat · 27 Nov | **[RedReaper CTF](https://qualification.redx.site/)**<br>Jumat, 27 Nov · 18:00–02:00 WIB · 8h · Jeopardy<br>█████████░░░░░░░░░░░ 45% | ![Status](https://img.shields.io/badge/Dalam_8_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Jumat · 27 Nov | **[N0v4CTF 2026](https://n0v4ctf.devs.surf/)**<br>Jumat, 27 Nov · 00:00–00:00 WIB · 1d 0h · Jeopardy<br>█████████░░░░░░░░░░░ 43% | ![Status](https://img.shields.io/badge/Dalam_8_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Jumat · 27 Nov | **[LakeCTF Quals 26-27](https://lakectf.epfl.ch/)**<br>Jumat, 27 Nov · 01:00–01:00 WIB · 1d 0h · Jeopardy<br>█████████░░░░░░░░░░░ 43% | ![Status](https://img.shields.io/badge/Dalam_8_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-45.76-yellow) |
+| Sabtu · 28 Nov | **[L3m0n CTF 2026 (Quals)](https://l3m0nctf.xyz/)**<br>Sabtu, 28 Nov · 11:30–23:30 WIB · 12h · Jeopardy<br>████████░░░░░░░░░░░░ 40% | ![Status](https://img.shields.io/badge/Dalam_9_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Sabtu · 28 Nov | **[CyberNSK2027-Qualifier](https://quals.sslctf.ru/)**<br>Sabtu, 28 Nov · 16:00–04:00 WIB · 12h · Jeopardy<br>████████░░░░░░░░░░░░ 38% | ![Status](https://img.shields.io/badge/Dalam_9_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Sabtu · 28 Nov | **[Black Hat India 2026 Official CTF](https://ctf.blackhat-india.com/)**<br>Sabtu, 28 Nov · 21:00–21:00 WIB · 1d 0h · Jeopardy<br>███████░░░░░░░░░░░░░ 37% | ![Status](https://img.shields.io/badge/Dalam_9_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
+| Selasa · 1 Des | **[BlackHat MEA CTF Final 2026](https://blackhatmea.com/capture-the-flag)**<br>Selasa, 1 Des · 22:14–22:14 WIB · 2d 0h · Jeopardy<br>███░░░░░░░░░░░░░░░░░ 15% | ![Status](https://img.shields.io/badge/Dalam_12_hari-58a6ff) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
 </details>
 
 ### Sudah Berakhir (7 Hari Terakhir)
@@ -41,8 +42,6 @@ Repository ini otomatis mengupdate jadwal CTF dari CTFtime setiap 2 jam.
 
 | Jadwal | Event | Status | Rating |
 |--------|-------|--------|--------|
-| Kamis · 12 Nov | **[WRAVEN CTF 2026](https://ctf.wraven.org/)**<br>Kamis, 12 Nov · 20:00–00:00 WIB · 1d 4h · Jeopardy<br>████████████████████ 100% | ![Status](https://img.shields.io/badge/Selesai-8b949e) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
-| Kamis · 12 Nov | **[CSAW CTF Final Round 2026](https://ctf.csaw.io/)**<br>Kamis, 12 Nov · 00:00–12:00 WIB · 1d 12h · Jeopardy<br>████████████████████ 100% | ![Status](https://img.shields.io/badge/Selesai-8b949e) | ![Rating](https://img.shields.io/badge/Rating-1.00-red) |
 | Jumat · 13 Nov | **[TVX CTF 2026](https://ctf-techvisions.com/)**<br>Jumat, 13 Nov · 17:00–03:00 WIB · 10h · Jeopardy<br>████████████████████ 100% | ![Status](https://img.shields.io/badge/Selesai-8b949e) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
 | Jumat · 13 Nov | **[Algolympiad CTF 2026](https://cyber.algolymp.com/events/a814a7cc-4e23-45f6-a51e-f071aadc8942?lang=en)**<br>Jumat, 13 Nov · 21:00–21:00 WIB · 2d 0h · Jeopardy<br>████████████████████ 100% | ![Status](https://img.shields.io/badge/Selesai-8b949e) | ![Rating](https://img.shields.io/badge/Rating-Belum_ada-lightgrey) |
 | Jumat · 13 Nov | **[Platypwn 2026](https://platypwn.ctf.platypwnies.de/)**<br>Jumat, 13 Nov · 00:00–18:00 WIB · 18h · Jeopardy<br>████████████████████ 100% | ![Status](https://img.shields.io/badge/Selesai-8b949e) | ![Rating](https://img.shields.io/badge/Rating-37.00-yellow) |
@@ -52,4 +51,4 @@ Repository ini otomatis mengupdate jadwal CTF dari CTFtime setiap 2 jam.
 
 
 ---
-*Last updated: 2026-11-19 09:56:08 UTC — dihasilkan otomatis oleh [ctf-event-tracker](https://github.com/Frigg1337/ctf-event-tracker)*
+*Last updated: 2026-11-19 18:54:16 UTC — dihasilkan otomatis oleh [ctf-event-tracker](https://github.com/Frigg1337/ctf-event-tracker)*
